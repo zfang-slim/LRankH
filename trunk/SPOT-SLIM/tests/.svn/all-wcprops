@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests
+END
+test_mvopBinary.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopBinary.m
+END
+test_eigs.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_eigs.m
+END
+test_opBlockOp.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opBlockOp.m
+END
+test_opBernoulli.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opBernoulli.m
+END
+test_iterative.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_iterative.m
+END
+test_opRomberg.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opRomberg.m
+END
+test_image_example.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_image_example.m
+END
+test_opHadamard.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opHadamard.m
+END
+test_mvopHadamard.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopHadamard.m
+END
+test_opMatrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opMatrix.m
+END
+test_products.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_products.m
+END
+test_indexing.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_indexing.m
+END
+test_mvwrappers.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvwrappers.m
+END
+test_mvproducts.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvproducts.m
+END
+test_mvopMatrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopMatrix.m
+END
+random_phasesND.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/random_phasesND.m
+END
+test_opGaussian.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opGaussian.m
+END
+test_opToeplitz.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opToeplitz.m
+END
+test_mvopToeplitz.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopToeplitz.m
+END
+test_mvopGaussian.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopGaussian.m
+END
+debugConv.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/debugConv.m
+END
+test_sparsevecs.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_sparsevecs.m
+END
+test_mvcoremethods.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvcoremethods.m
+END
+test_mvopBlockDiag.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopBlockDiag.m
+END
+test_normest.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_normest.m
+END
+dottest.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/dottest.m
+END
+test_mvopBlockOp.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopBlockOp.m
+END
+test_mvopBernoulli.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopBernoulli.m
+END
+test_tree.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_tree.m
+END
+test_mvtree.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvtree.m
+END
+test_opDiag.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opDiag.m
+END
+test_opDictionary.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opDictionary.m
+END
+test_mvopDiag.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopDiag.m
+END
+test_mvopDictionary.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopDictionary.m
+END
+test_opKron.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opKron.m
+END
+test_dottests.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_dottests.m
+END
+spotpca.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/spotpca.m
+END
+test_mvopKron.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopKron.m
+END
+test_opOrthogonal.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opOrthogonal.m
+END
+test_solves.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_solves.m
+END
+test_coremethods.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_coremethods.m
+END
+test_mvdottests.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvdottests.m
+END
+test_char.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_char.m
+END
+test_mvsolves.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvsolves.m
+END
+test_mvopOrthogonal.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_mvopOrthogonal.m
+END
+test_opBlockDiag.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opBlockDiag.m
+END
+test_opBinary.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/test_opBinary.m
+END

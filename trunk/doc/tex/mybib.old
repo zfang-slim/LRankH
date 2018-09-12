@@ -1,0 +1,1918 @@
+@ARTICLE{abubakar02,
+	author={A. Abubakar and P.M. van den Berg},
+	title={The contrast source inversion method for inversion and shape reconstructions},
+	journal={{I}nverse {P}roblems},
+	volume={18},
+	year={2002},
+	pages={495--510},
+	url={http://dx.doi.org/10.1088/0266-5611/18/2/313}
+}
+@Article{antoine05,	
+	title = "Alternative integral equations for the iterative solution of acoustic scattering problems",
+    	author = "X. Antoine and M. Darbas",
+ 	journal = "Q. J. Mech. Appl. Math.",
+    	year = "2005",
+    	volume = "58",
+    	number = "1",
+    	pages = "107--128",
+    	url="http://dx.doi.org/10.1093/qjmamj/hbh023"
+}
+@article{bao96,
+	author = {G. Bao and W.W. Symes},
+	title = {Computation of Pseudo-Differential Operators},
+	publisher = {SIAM},
+	year = {1996},
+	journal = {{SIAM} {J}ournal on {S}cientific {C}omputing},
+	volume = {17},
+	number = {2},
+	pages = {416-429},
+	url={http://dx.doi.org/10.1137/S1064827593258279}
+}
+@Article{bednar05,
+    	title = "A brief history of seismic migration",
+    	author = "J. Bednar",
+    	journal = "Geophysics",
+    	year = "2005",
+    	volume = "70",
+    	number = "3",
+    	pages = "3MJ--20MJ",
+    	url = "http://dx.doi.org/10.1190/1.1926579",
+}
+@Article{berg97,
+    	title = "A contrast source inversion method",
+    	author = "P.M. van den Berg and R.E. Kleinman",
+    	journal = "{I}nverse {P}roblems",
+    	year = "1997",
+    	volume = "13",
+    	number="6",
+    	pages = "1706--1620",
+	url={http://dx.doi.org/10.1088/0266-5611/13/6/013}
+
+}
+@Article{beylkin84,
+    	title = "The inversion problem and applications of the generalized radon transform",
+    	author = "G. Beylkin",
+   	journal = "{C}ommunications on {P}ure and {A}pplied {M}athetmatics",
+    	volume = "37",
+    	year = "1984",
+    	pages="579--599",
+	url={http://dx.doi.org/10.1002/cpa.3160370503}
+}
+@Article{beylkin85,
+    	title = "Imaging of discontinuities in the inverse scattering problem by inversion of a causal generalized Radon transform",
+    	author = "G. Beylkin",
+    	journal = "{J}ournal of {M}athematical {P}hysics",
+    	volume = "26",
+    	number = "1",
+    	year = "1985",
+    	pages = "99--108",
+	url={http://dx.doi.org/10.1063/1.526755}
+}
+@article{bruin90,
+author = {C. G. M. de Bruin and C. P. A. Wapenaar and A. J. Berkhout},
+collaboration = {},
+title = {Angle-dependent reflectivity by means of prestack migration},
+publisher = {SEG},
+year = {1990},
+journal = {Geophysics},
+volume = {55},
+number = {9},
+pages = {1223-1234},
+url = {http://link.aip.org/link/?GPY/55/1223/1},
+doi = {10.1190/1.1442938}
+}
+@book{berkhout85,
+annote = {undefined},
+author = {Berkhout, A. J.},
+file = {:Volumes/Users/tristan/Library/Application Support/Mendeley Desktop/Downloaded/Unknown - Unknown - Berkhout (1985) Seismic migration Imaging of acoustic energy by wave field extrapolation.html:html},
+keywords = {berkhout (1985) seismic migration: imaging of aco,seismic waves},
+publisher = {Elsevier},
+title = {{Seismic migration: Imaging of acoustic energy by wave field extrapolation}},
+url = {http://www.getcited.org/pub/102455680},
+year = {1985}
+}
+@article{berkhout97,
+author = {Berkhout, A. J.},
+doi = {10.1190/1.1444201},
+issn = {1070485X},
+journal = {Geophysics},
+month = may,
+number = {3},
+pages = {937},
+title = {{Pushing the limits of seismic imaging, Part I: Prestack migration in terms of double dynamic focusing}},
+url = {http://library.seg.org/getabs/servlet/GetabsServlet?prog=normal\&id=GPYSA7000062000003000937000001\&idtype=cvips\&gifs=yes},
+volume = {62},
+year = {1997}
+}
+@article{billette98,
+	title={Velocity macro-model estimation from seismic reflection data by stereotomography},
+	author={F. Billette and G. Lambar{\'e}},
+	journal={{G}eophysical {J}ournal {I}nternational},
+	volume={135},
+	number={2},
+	pages={671--690},
+	year={1998},
+	url={http://dx.doi.org/10.1046/j.1365-246X.1998.00632.x}
+}
+@article{biondi04,
+	author = {B. Biondi and W.W. Symes},
+	title = {Angle-domain common-image gathers for migration velocity analysis by wavefield-continuation imaging},
+	publisher = {SEG},
+	year = {2004},
+	journal = {Geophysics},
+	volume = {69},
+	number = {5},
+	pages = {1283-1298},
+	url = {http://dx.doi.org/10.1190/1.1801945}
+}
+@article{bishop85,
+	author = {T.N. Bishop and K.P. Bube and R.T. Cutler and R.T. Langan and P.L. Love and J.R. Resnick and R.T. Shuey and D.A. Spindler and H.W. Wyld},
+collaboration = {},
+	title = {Tomographic determination of velocity and depth in laterally varying media},
+	publisher = {SEG},
+	year = {1985},
+	journal = {Geophysics},
+	volume = {50},
+	number = {6},
+	pages = {903-923},
+	url = {http://dx.doi.org/10.1190/1.1441970}
+}
+
+@Article{boggs96,
+	title = "Sequential Quadratic Programming",
+	author = "P. T. Boggs and J. W. Tolle",
+	journal = "Acta Numerica",
+	year = "1996",
+	pages = "1--000",
+	url={http://dx.doi.org/10.1017/S0962492900002518}
+}
+@article{boman93,
+	title={An example of non-uniqueness for a generalized Radon transform},
+	author={J. Boman},
+	journal={Journal d'Analyse Math{\'e}matique},
+	year={1993},
+	volume={61},
+	number={1},
+	pages={395--401},
+	url={http://dx.doi.org/10.1007/BF02788850}
+}
+@Article{brown05,
+    	title = "Least-squares joint imaging of multiples and primaries",
+    	author = "M.P. Brown and A. Guitton",
+    	journal = "Geophysics",
+    	year = "2005",
+    	volume = "70",
+    	number = "5",
+    	pages = "S79--S89",
+	url={http://dx.doi.org/10.1190/1.2052471}
+}
+@ARTICLE{bunks95,
+	author={C. Bunks and F.M. Saleck and S. Zaleski and G. Chavent},
+ 	title={Multiscale seismic waveform inversion},
+ 	journal={Geophysics},
+ 	volume={60},
+ 	number={5},
+ 	year={1995},
+ 	pages={1457--1473},
+	url={http://dx.doi.org/10.1190/1.1443880}
+}
+@article{cameron07,
+	title="Seismic velocity estimation from time migration",
+	author="M.K. Cameron and S.B. Fomel and J.A. Sethian",
+	journal="{I}nverse {P}roblems",
+	year="2007",
+	volume="23",
+	number="5",
+	pages="1329--1369",
+	url={http://dx.doi.org/10.1088/0266-5611/23/4/001}
+}
+@article{cara87,
+	title="Waveform inversion using secondary observables",
+	author="M. Cara and J.J. Leveque",
+	journal="{G}eophysical {R}esearch {L}etters",
+	year="1987",
+	volume="14",
+	number="10",
+	pages="1046--1049",
+	url={http://dx.doi.org/10.1029/GL014i010p01046}
+}
+@Article{causse02,
+    	title = "Avoiding pitfalls of least-squares inversion by using the energy-flux error criterion",
+    	author = "E. Causse",
+    	journal = "{G}eophysical {P}rospecting",
+    	year = "2002",
+    	volume = "50",
+    	pages = "317--327",
+	url={http://dx.doi.org/10.1046/j.1365-2478.2002.00320.x}
+}
+@ARTICLE{chauris01,
+ 	author={H. Chauris and M.S. Noble},
+ 	title={Two$-$dimensional velocity macro model estimation from seismic reflection data by local differential semblance optimization: applications to synthetic and real data sets},
+ 	journal={{G}eophysical {J}ournal {I}nternational},
+ 	volume={144},
+ 	number = {1},
+ 	year={2001},
+ 	pages={14--26},
+ 	url={http://dx.doi.org/10.1111/j.1365-246X.2001.00279.x}
+}
+@article{chauris02a,
+	author = {H. Chauris and M.S. Noble and G. Lambar\'{e} and P. Podvin},
+	title = {Migration velocity analysis from locally coherent events in 2-D laterally heterogeneous media, Part I: Theoretical aspects},
+	publisher = {SEG},
+	year = {2002},
+	journal = {Geophysics},
+	volume = {67},
+	number = {4},
+	pages = {1202-1212},
+	url={http://dx.doi.org/10.1190/1.1500382}
+}
+@article{chauris02b,
+	author = {H. Chauris and M.S. Noble and G. Lambar\'{e} and P. Podvin},
+	title = {Migration velocity analysis from locally coherent events in 2-D laterally heterogeneous media, Part 2: Applications on synthetic and real data},
+	publisher = {SEG},
+	year = {2002},
+	journal = {Geophysics},
+	volume = {67},
+	number = {4},
+	pages = {1213-1224},
+	url={http://dx.doi.org/10.1190/1.1500383}
+}
+@article{cheney01,
+	author={M. Cheney},
+	title={The linear sampling method and the {MUSIC} algorithm},
+	journal={{I}nverse {P}roblems},
+	volume={17},
+	number={4},
+	year={2001},
+	pages={591--595},
+	url={http://dx.doi.org/10.1088/0266-5611/17/4/301}
+}
+@ARTICLE{clement01,
+ 	author={F. Cl{\'e}ment and G. Chavent and S. G{\'o}mez},
+ 	title={Migration-based traveltime waveform inversion of 2-{D} simple structures: A synthetic example},
+ 	journal={Geophysics},
+ 	volume={66},
+ 	number={3},
+ 	year={2001},
+ 	pages={845--860},
+ 	url={http://dx.doi.org/10.1190/1.1444974}
+}
+@article{claerbout71,
+	author = {/Jon F. Claerbout},
+	title = {Toward a unified theory of reflector mapping},
+	publisher = {SEG},
+	year = {1971},
+	journal = {Geophysics},
+	volume = {36},
+	number = {3},
+	pages = {467-481},
+	url={http://dx.doi.org/10.1190/1.1440185}
+}
+@Article{colton05,
+    	title = "An application of the reciprocity gap functional to inverse scattering theory",
+    	author = "D. Colton and H. Haddar",
+    	journal = "{I}nverse {P}roblems",
+    	year = "2005",
+    	volume = "21",
+    	number="1",
+    	pages = "383--398",
+	url={http://dx.doi.org/10.1088/0266-5611/21/1/023}
+}
+@article{crase90,
+	title={Robust non-linear waveform inversion: Application to real data},
+	author={E. Crase and A. Pica and M. Noble and J. McDonald and A. Tarantola},
+	journal={Geophysics},
+	year={1990},
+	volume={55},
+	pages={527--538},
+	url={http://dx.doi.org/10.1190/1.1442864 }
+}
+@article{dahlen00,
+	title={Fr{\'e}chet kernels for finite frequency traveltimes -- I. Theory},
+	author={F.A. Dahlen and S.-H. Hung and G. Nolet},
+	journal={{G}eophysical {J}ournal {I}nternational},
+	year={2000},
+	volume={141},
+	issue={1},
+	pages={157--174},
+	url={http://dx.doi.org/10.1046/j.1365-246X.2000.00070.x}
+}
+@Article{delptrat05,
+    	title = "A fundatmental limitation for the reconstruction of impedance profiles from seismic data",
+    	author = "F. Delprat-Jannaud and P. Lailly",
+    	journal = "Geophysics",
+    	year = "1995",
+    	volume = "70",
+    	number = "1",
+    	pages = "R1--R14",
+	url={http://dx.doi.org/10.1190/1.1852784}
+}
+@article{dix55,
+	author = {C. Hewitt Dix},
+	title = {Seismic velocities from surface measurements},
+	publisher = {SEG},
+	year = {1955},
+	journal = {Geophysics},
+	volume = {20},
+	number = {1},
+	pages = {68-86},
+	url={http://dx.doi.org/10.1190/1.1438126}
+}
+@ARTICLE{dragoset98,
+ author={W.H. Dragoset and Z. Jericevic},
+ title={Some remarks on surface multiple attenuation},
+ journal={Geophysics},
+ volume={63},
+ number = {2},
+ year={1998},
+ pages={772--789},
+ url={http://dx.doi.org/10.1190/1.1444377}
+}
+@article{duchkov08,
+	author={A.A. Duchkov and M.V. de Hoop and A.S. Barreto},
+	title={Evolution-equation approach to seismic image, and data, continuation},
+	journal={{W}ave {M}otion}, 
+	volume= {45}, 
+	number={7-8},
+	year={2008}, 
+	pages={952--969},
+	url={http://dx.doi.org/10.1016/j.wavemoti.2008.06.001}
+}
+@article{duchkov09,
+	author={A.A. Duchkov and M.V. de Hoop},
+	title={Velocity continuation in the downward continuation approach to seismic imaging},
+	journal={{G}eophysical {J}ournal {I}nternational},
+	volume={176},
+	number={3},
+	year={2009},
+	pages={909--924},
+	url={http://dx.doi.org/10.1111/j.1365-246X.2008.04023.x}
+}
+@article{etgen09,
+	author = {J. Etgen and S. H. Gray and Y. Zhang},
+	title = {An overview of depth imaging in exploration geophysics},
+	publisher = {SEG},
+	year = {2009},
+	journal = {Geophysics},
+	volume = {74},
+	number = {6},
+	pages = {WCA5-WCA17},
+	url={http://dx.doi.org/10.1190/1.3223188}
+}
+@Article{farquharson98,
+    	title = "Non-linear inversion using general measures of data misfit and model structure",
+    	author = "C.G. Farquharson and D. W. Oldenburg",
+    	journal = "{G}eophysical {J}ournal {I}nternational",
+    	year = "1998",
+    	volume = "134",
+    	number = "1",
+    	pages = "213--227",
+	url={http://dx.doi.org/10.1046/j.1365-246x.1998.00555.x}
+}
+@article{ferguson1973,
+    	title = {Sufficient Conditions for Peano's Kernel to be of One Sign},
+     	author = {D. Ferguson},
+     	journal = {{SIAM} {J}ournal on {N}umerical {A}nalysis},
+     	volume = {10},
+     	number = {6},
+     	pages = {1047--1054},
+     	year = {1973},
+	url={http://dx.doi.org/10.1137/0710087}
+}
+@article{fridman95,
+	title={A uniqueness result for a generalized radon transform},
+	author={B.L. Fridman},
+	journal={{SIAM} {J}ournal on {M}athematical {A}nalysis {A}rchive},
+	volume={26},
+	number={6},
+	year={1995},
+	pages={1467--1472},
+	url={http://dx.doi.org/}
+}
+@Article{gauthier86,
+    title = "Two-dimensional nonlinear inversion of seismic waveforms: Numerical results",
+    author = "O. Gauthier and J. Virieux and A. Tarantola",
+    journal = "Geophysics",
+    year = "1986",
+    volume = "51",
+    number = "7",
+    pages = "1387--1403",
+	url={http://dx.doi.org/10.1137/S0036141093251389}
+}
+@ARTICLE{gaviano03,
+ 	author={M. Gaviano and D.E. Kvasov and D. Lera and Y.D. Sergeyev},
+ 	title={Algorithm 829: Software for generation of classes of test functions with known local and global minima for global optimization},
+ 	journal={{ACM} {T}ransactions on {M}athematical {S}oftware},
+ 	volume={29},
+ 	number = {4},
+ 	year={2003},
+ 	pages={469--480},
+	url={http://dx.doi.org/10.1145/962437.962444}
+}
+@article{gee92,
+	author="L.S. Gee and T.H. Jordan",
+	title="Generalized Seismological data functionals",
+	journal="{G}eophysical {J}ournal {I}nternational",
+	volume="111",
+	number="2",
+	year="1992",
+	pages="363--390",
+	url={http://dx.doi.org/10.1111/j.1365-246X.1992.tb00584.x}
+}
+@ARTICLE{golub73,
+ 	author={G. Golub and V. Pereyra},
+ 	title={The differentiation of pseudo-inverses and nonlinear least squares problems whose variables separate},
+ 	journal={{SIAM} {Journal} on {N}umerical {A}nalysis},
+ 	volume={10},
+ 	number = {2},
+ 	year={1973},
+ 	pages={413--432},
+ 	url={http://dx.doi.org/10.1137/0710036}
+}
+@ARTICLE{golub03,
+ 	author={G. Golub and V. Pereyra},
+ 	title={Separable nonlinear least squares: the variable projection method and its applications},
+ 	journal={Inverse Problems},
+ 	volume={19},
+ 	number = {2},
+ 	year={2003},
+ 	pages={R1},
+ 	url={http://dx.doi.org/10.1088/0266-5611/19/2/201/}
+}
+@article{guitton03,
+	author={A. Guitton and W.W. Symes},
+	title={Robust inversion of seismic data using the Huber norm},
+	journal={Geophysics},
+	volume={68},
+	year={2003},
+	pages={1310--1319},
+	url={http://dx.doi.org/10.1190/1.1598124}
+}
+@ARTICLE{gray05,
+	author={G.A. Gray and T.G. Kolda},
+	title={Algorithm 8xx: APPSPACK 4.0: Asynchronous Parallel Pattern Search for Derivative-Free Optimization},
+ 	journal={{ACM} {Transactions} on {M}athematical {S}oftware},
+ 	volume={32},
+	number={3},
+	year={2005},
+	url={http://dx.doi.org/10.1145/1163641.1163647}
+}
+@Article{haber00,
+    	title = "On optimization techniques for solving non-linear inverse problems",
+    	author = "E. Haber and U.M. Ascher and D. Oldenburg",
+    	journal = "{I}nverse {P}roblems",
+    	year = "2000",
+    	volume = "16",
+    	number="5",
+    	pages = "1263--1280",
+	url={http://dx.doi.org/10.1088/0266-5611/16/5/309}
+}
+@Article{haber04,
+    	title = "Inversion of 3D electromagnetic data in frequency and time domain using an inexact all-at-one approach.",
+    	author = "E. Haber and U.M. Ascher and D. Oldenburg",
+    	journal = "Geophysics",
+    	year = "2004",
+    	volume = "69",
+    	number = "5",
+    	pages = "1216--1228",
+	url={http://dx.doi.org/10.1190/1.1801938 /}
+}
+@techreport{haber10,
+	Author = {Eldad Haber and Matthias Chung and Felix J. Herrmann},
+	Date-Modified = {},
+	Institution = {UBC-Earth and Ocean Sciences Department},
+	optJournal = {},
+	Keywords = {SLIM},
+	Number = {TR-2010-4},
+	Pdf = {http://slim.eos.ubc.ca/Publications/Public/Journals/Haber2010emp.pdf},
+	Title = {An effective method for parameter estimation with PDE constraints with multiple right hand sides},
+	optVolume = {submitted},
+	Year = {2010}}
+
+@ARTICLE{hansen94,
+ 	author={P.C. Hansen},
+ 	title={Regulatization tools: a matlab package for analysis and solution of discrete ill-posed problems},
+ 	journal={{N}umerical {A}lgorithms},
+ 	volume={6},
+ 	year={1994},
+ 	pages={1--35},
+ 	url={http://dx.doi.org/10.1007/BF02149761}
+}
+@Article{herman92,
+    	title = "Generalization of traveltime inversion",
+    	author = "G. Herman",
+    	journal = "Geophysics",
+    	year = "1992",
+    	volume = "57",
+    	number = "1",
+    	pages = "9--14",
+	url={http://dx.doi.org/10.1190/1.1443193}
+}
+@article{herrmann09,
+	Abstract = {The fact that computational complexity of wavefield simulation is proportional to the size of the discretized model and acquisition geometry, and not to the complexity of the simulated wavefield, is a major impediment within seismic imaging. By turning simulation into a compressive sensing problem---where simulated data is recovered from a relatively small number of independent simultaneous sources---we remove this impediment by showing that compressively sampling a simulation is equivalent to compressively sampling the sources, followed by solving a reduced system. As in compressive sensing, this allows for a reduction in sampling rate and hence in simulation costs. We demonstrate this principle for the time-harmonic Helmholtz solver. The solution is computed by inverting the reduced system, followed by a recovery of the full wavefield with a sparsity promoting program. Depending on the wavefield's sparsity, this approach can lead to significant cost reductions, in particular when combined with the implicit preconditioned Helmholtz solver, which is known to converge even for decreasing mesh sizes and increasing angular frequencies. These properties make our scheme a viable alternative to explicit time-domain finite-differences.},
+	Author = {F. J. Herrmann and Y. A. Erlangga and T.T.Y. Lin},
+	Date-Added = {2009-07-03 13:04:56 -0700},
+	Date-Modified = {2009-07-03 13:10:18 -0700},
+	Journal = {Geophysics},
+	Keywords = {full-waveform},
+	Pages = {A35},
+	Title = {Compressive simultaneous full-waveform simulation},
+	Volume = {74},
+	Year = {2009},
+	Bdsk-Url-1 = {http://slim.eos.ubc.ca/Publications/Public/TechReports/herrmann08csf-r.pdf}}
+
+@Article{hoop05a,
+    	title = "On sensitivity kernels for `wave-equation' transmission tomography",
+    	author = "M.V. de Hoop and R.D. van der Hilst",
+    	journal = "{G}eophysical {J}ournal {I}nternational",
+    	year = "2005",
+    	volume = "160",
+    	number="3",
+    	pages = "621--633", 
+    	url={http://dx.doi.org/10.1111/j.1365-246X.2004.02509.x}
+}
+@Article{hoop05b,
+ 	title = "Characterization and `Source-Receiver' continuation of seismic reflection data",
+    	author = "M.V. de Hoop and G. Uhlmann",
+    	journal = "{C}ommunications on {M}athematical {P}hysics",
+    	year = "2005",
+	url={http://dx.doi.org/10.1007/s00220-005-1491-6}
+}
+@Article{hoop06a,
+    	title = "Wave-equation reflection tomography: annihilators and sensitivity kernels",
+    	author = "M.V. de Hoop and R.D. van der Hilst and P. Shen",
+    	journal = "{G}eophysical {J}ournal {I}nternational",
+    	year = "2006",
+    	volume = "167",
+    	pages = "1332--1352",
+	url={http://dx.doi.org/10.1111/j.1365-246X.2006.03132.x}
+}
+@article{hoop09,
+  	author={M.V. de Hoop and H. Smith and G. Uhlmann and R.D. van der Hilst},
+  	title={Seismic imaging with the generalized {R}adon transform: a curvelet transform perspective},
+  	journal={{I}nverse {P}roblems},
+  	volume={25},
+  	number={2},
+  	pages={025005 (21pp)},
+  	url={http://dx.doi.org/10.1088/0266-5611/25/2/025005},
+  	year={2009}
+}
+@ARTICLE{hormann02,
+ 	author={G. H{\"o}rmann and M. V. de Hoop},
+ 	title={Detection of Wave Front Set Perturbations via Correlation: Foundation for Wave-equation Tomography},
+ 	journal={{A}pplicable {A}nalysis},
+ 	volume={81},
+ 	year={2002},
+ 	pages={1443--1465},
+ 	url={http://dx.doi.org/10.1080/0003681021000035489}
+}
+@article{jannane89,
+	author = {M. Jannane and W. Beydoun and E. Crase and D. Cao and Z. Koren and E. Landa and M. Mendes and A. Pica and M. Noble and G. Roeth and S. Singh and R. Snieder and A. Tarantola and D. Trezeguet and M. Xie},
+	title = {Wavelengths of earth structures that can be resolved from seismic reflection data},
+	publisher = {SEG},
+	year = {1989},
+	journal = {Geophysics},
+	volume = {54},
+	number = {7},
+	pages = {906-910},
+	url={http://dx.doi.org/10.1190/1.1442719}
+}
+@Article{jiang07,
+    	title = "Migration methods for imaging different-order multiples",
+    	author = "Z. Jiang and J. Sheng and J. Yu and G. T. Schuster and B. E. Hornby",
+    	journal = "{G}eophysical {P}rospecting",
+    	year = "2007",
+    	volume = "51",
+    	pages = "1--19",
+	url={http://dx.doi.org/10.1111/j.1365-2478.2006.00598.x}
+}
+@article{jo96,
+author = {Churl-Hyun Jo and Changsoo Shin and Jung Hee Suh},
+collaboration = {},
+title = {An optimal 9-point, finite-difference, frequency-space, 2-D scalar wave extrapolator},
+publisher = {SEG},
+year = {1996},
+journal = {Geophysics},
+volume = {61},
+number = {2},
+pages = {529-537},
+url = {http://link.aip.org/link/?GPY/61/529/1},
+doi = {10.1190/1.1443979}
+}
+@ARTICLE{kaufman75,
+	author = {L. Kaufman},
+	title = {A variable projection method for solving separable nonlinear least squares problems},
+	journal = {{BIT} Numerical Mathematics},
+	year = {1975},
+	volume={15},
+	number = {1},
+	pages = {49--57},
+	url={http://dx.doi.org/10.1007/BF01932995}
+}
+@Article{kirsch88,
+  	title = "The Backus-Gilbert method",
+  	author = "A. Kirsch and B. Schomburg and G. Berendt",
+    	journal = "{I}nverse {P}roblems",
+    	year = "1988",
+    	volume = "4",
+    	number = "3",
+    	pages = "771-783",
+	url={http://dx.doi.org/10.1088/0266-5611/4/3/014}
+}
+@ARTICLE{kolda05b,
+ 	author={T.G. Kolda},
+ 	title={Revisiting Asynchronous Parallel Pattern Search for Nonlinear Optimization},
+ 	journal={{SIAM} Journal of {O}ptimization},
+ 	volume={16},
+ 	number = {2},
+ 	year={2005},
+ 	pages={563--586},
+	url={http://dx.doi.org/10.1137/040603589}
+}
+@article{krebs09,
+author = {Jerome R. Krebs and John E. Anderson and David Hinkley and Ramesh Neelamani and Sunwoong Lee and Anatoly Baumstein and Martin-Daniel Lacasse},
+collaboration = {},
+title = {Fast full-wavefield seismic inversion using encoded sources},
+publisher = {SEG},
+year = {2009},
+journal = {Geophysics},
+volume = {74},
+number = {6},
+pages = {WCC177-WCC188},
+keywords = {seismology},
+url = {http://link.aip.org/link/?GPY/74/WCC177/1},
+doi = {10.1190/1.3230502}
+}
+@ARTICLE{kroode98,
+ 	author={A.P.E. ten Kroode and D.-J. Smit and A.R. Verdel},
+ 	title={A mircrolocal analysis of migration},
+ 	journal={{W}ave {M}otion},
+ 	volume={28},
+ 	year={1998},
+ 	pages={149--172},
+	url={http://dx.doi.org/10.1016/S0165-2125(98)00004-3}
+}
+@article{kuvshinov06,
+	author = {B.N. Kuvshinov and W.A. Mulder},
+	title = {The exact solution of the time-harmonic wave equation for a linear velocity profile},
+	journal={{G}eophysical {J}ournal {I}nternational},
+	volume={167},
+	number={2},
+	year={2006},
+	pages={659--662},
+	url={http://dx.doi.org/10.1111/j.1365-246X.2006.03194.x}
+}
+@article{leeuwen08,
+	title="Velocity analysis based on data correlation",
+	author="T. van Leeuwen and W.A. Mulder",
+	journal="{G}eophysical {P}rospecting",
+	year="2008",
+	volume="56",
+	number="6",
+	pages="791--803",
+	url={http://dx.doi.org/10.1111/j.1365-2478.2008.00704.x}
+}
+@article{leeuwen10,
+  	author={T. van Leeuwen and W.A. Mulder},
+  	title={A comparison of seismic velocity inversion methods for layered acoustics},
+  	journal={{I}nverse {P}roblems},
+  	volume={26},
+  	number={1},
+  	pages={015008 (21pp)},
+  	year={2010},
+	url={http://dx.doi.org/10.1088/0266-5611/26/1/015008}
+}
+@article{leeuwen10b,
+  	author={T. van Leeuwen and W.A. Mulder},
+  	title={A correlation-based misfit criterion for wave-equation traveltime tomography},
+  	journal={{G}eophysical {J}ournal {I}nternational (in print, published online)},
+  	volume={},
+  	number={},
+  	pages={},
+  	year={2010},
+	url={http://dx.doi.org/10.1111/j.1365-246X.2010.04681.x}
+}
+@Article{li07,
+    	title = "Interval velocity estimation via {NMO}-based differential semblance",
+    	author = "J. Li and W.W. Symes",
+    	journal = "Geophysics",
+    	year = "2007",
+    	volume = "72",
+    	number = "6",
+    	pages = "U75--U88",
+	url={http://dx.doi.org/10.1190/1.2767401}
+}
+@Article{liu97,
+    	title = "An analytical approach to migration velocity analysis",
+    	author = "Z. Liu",
+    	journal = "Geophysics",
+    	year = "1997",
+    	volume = "62",
+    	number = "4",
+    	pages = "1238--1249",
+	url={http://dx.doi.org/10.1190/1.1444225}
+}
+@Article{luo91,
+    	title = "Wave-equation traveltime inversion",
+    	author = "Y. Luo and G. T. Schuster",
+    	journal = "Geophysics",
+    	year = "1991",
+    	volume = "56",
+    	number = "5",
+    	pages = "645--653",
+	url={http://dx.doi.org/10.1190/1.1443081}
+}
+@ARTICLE{mackay92,
+ 	author={S. MacKay and R. Abma},
+ 	title={Imaging and velocity analysis with depth-focusing analysis},
+ 	journal={Geophysics},
+ 	volume={57},
+ 	number = {12},
+ 	year={1992},
+ 	pages={1608--1622},
+	url={http://dx.doi.org/10.1190/1.1443228}
+}
+@article{marquering98,
+	title={Three-dimensional waveform sensitivity kernels},
+	author={H. Marquering and G. Nolet and F.A. Dahlen},
+	journal={{G}eophysical {J}ournal {I}nternational},
+	year=1998,
+	volume=132,
+	number=3,
+	pages={521--534},
+	url={http://dx.doi.org/10.1046/j.1365-246X.1998.00426.x}
+}
+@article{marquering99,
+	title={Three-dimensional sensitivity kernels for finite frequency traveltimes: the banana-doughnut paradox},
+	author={H. Marquering and G. Nolet and F.A. Dahlen},
+	journal={{G}eophysical {J}ournal {I}nternational},
+	year=1999,
+	volume=132,
+	number=3,
+	pages={521--534},
+	url={http://dx.doi.org/10.1046/j.1365-246x.1999.00837.x}
+}
+@Article{mcgillivray90,
+    	title = "Methods for calculating Fr\'echet derivatives and sensitivities for the non-linear inverse problem: A comparatative study",
+    	author = "P.R. McGillivray and D.W. Oldenburg",
+    	journal = "{G}eophysical {P}rospecting",
+    	year = "1990",
+    	volume = "38",
+    	pages = "499--524",
+	url={http://dx.doi.org/10.1111/j.1365-2478.1990.tb01859.x}
+}
+@Article{mehta08,
+	author="K. Mehta and A. Bakulin and D. Kiyashchenko and J. Lopez",
+	title="Comparing virtual versus real crosswell surveys",
+	journal="{SEG} {E}xpanded {A}bstracts",
+	volume="27",
+	year="2008",
+	pages="1372--1376",
+	url={http://dx.doi.org/10.1190/1.3059170}
+}
+@ARTICLE{mora88,
+ 	author={P. Mora},
+ 	title={Elastic wave-field inversion of reflection and transmission data},
+ 	journal={Geophysics},
+ 	volume={53},
+ 	number = {6},
+ 	year={1988},
+ 	pages={750--759},
+ 	url={http://dx.doi.org/10.1190/1.1442510}
+}
+@ARTICLE{mora89,
+ 	author={P. Mora},
+ 	title={Inversion = Migration + Tomography},
+ 	journal={Geophysics},
+ 	volume={54},
+ 	number = {12},
+ 	year={1989},
+ 	pages={1575--1586},
+ 	url={http://dx.doi.org/10.1190/1.1442625}
+}
+@Article{mulder02,
+    	title = "Automatic velocity analysis by differential semblance optimization",
+    	author = "W.A. Mulder and A.P.E. ten Kroode",
+    	journal = "Geophysics",
+    	year = "2002",
+    	volume = "67",
+    	number = "4",
+    	pages = "1184--1191",
+	url={http://dx.doi.org/10.1190/1.1500380}
+}
+@Article{mulder04,
+    	title = "A comparison between one-way and two-way wave-equation migration",
+    	author = "W.A. Mulder and R.-E. Plessix",
+    	journal = "Geophysics",
+    	year = "2004",
+    	volume = "69",
+    	number = "6",
+    	pages = "1491--1504",
+	url={http://dx.doi.org/10.1190/1.1836822}
+}
+@article{mulder08,
+	title="Exploring some issues in acoustic full waveform inversion",
+	author="W.A. Mulder and R.-E. Plessix",
+	journal="{G}eophysical {P}rospecting",
+	year="2008",
+	volume="56",
+	number="6",
+	pages="827--841",
+	url={http://dx.doi.org/10.1111/j.1365-2478.2008.00708.x}
+}
+@ARTICLE{natterer04,
+ 	author={F. Natterer},
+ 	title={An error bound for the {B}orn approximation},
+ 	journal={{I}nverse {P}roblems},
+ 	volume={20},
+ 	year={2004},
+ 	pages={447--452},
+	url={http://dx.doi.org/10.1088/0266-5611/20/2/009}
+}
+@article{natterer05,
+ 	author = {F. Natterer and F. W{\"u}bbeling},
+ 	title = {Marching schemes for inverse acoustic scattering problems},
+ 	journal = {{N}umerical {M}athematics},
+ 	volume = {100},
+ 	number = {4},
+ 	year = {2005},
+ 	issn = {0029-599X},
+ 	pages = {697--710},
+	url={http://dx.doi.org/10.1007/s00211-004-0580-3}
+}
+@article{neelamani10,
+author = {Ramesh (Neelsh) Neelamani and Christine E. Krohn and Jerry R. Krebs and Justin K. Romberg and Max Deffenbaugh and John E. Anderson},
+collaboration = {},
+title = {Efficient seismic forward modeling using simultaneous random sources and sparsity},
+publisher = {SEG},
+year = {2010},
+journal = {Geophysics},
+volume = {75},
+number = {6},
+pages = {WB15-WB27},
+keywords = {data acquisition; geophysical techniques; noise; seismology},
+url = {http://link.aip.org/link/?GPY/75/WB15/1},
+doi = {10.1190/1.3509470}
+}
+
+@Article{osborne07,
+    	title = "Separable least squares, variable projection and the gauss-newton algorithm",
+    	author = "M.R. Osborne",
+    	journal = "{E}lectronic {T}ransactions on {N}umerical {A}nalysis",
+    	year = "2007",
+    	volume = "28",
+    	pages = "1--15",
+	url={http://etna.mcs.kent.edu/}
+}
+@article{ozbek89,
+	title = "Simultaneous linearized inversion of velocity and density profiles for multidimensional acoustic media",
+	author = "A. Ozbek and B.C. Levy",
+	journal="{T}he {J}ournal of the {A}coustical {S}ociety of {A}merica",
+	year = "1989",
+	volume="1",
+	number="4",
+	pages = "1737-1748",
+	url={http://dx.doi.org/10.1121/1.401008}
+}
+@article{palamodov03,
+	title="Stability in diffraction tomography and a nonlinear “basic theorem” ",
+	author="V.V. Palamodov",
+	journal="{J}ournal d'{A}nalyse {M}athématique",
+	volume="42",
+	pages="119--152",
+	url={http://dx.doi.org/10.1007/BF02788790}
+}
+@article{palamodov04,
+	title="Fundamental solutions of the acoustic and diffusion equations in nonhomogeneous medium",
+	author="V.V. Palamodov",
+	journal="{A}rk. {M}at.",
+	volume="91",
+	number="1",
+	year="2003",
+	pages="247--268",
+	url={http://dx.doi.org/10.1007/BF02432913}
+}
+@article{pekeris46,
+	title={Theory of propagation of sound in a half-space of variable sound velocity under conditions of the formation of a shadow zone},
+	author={C.L. Pekeris},
+	journal={{J}ournal of the {A}coustical {S}ociety of {A}merica},
+	volume={18},
+	year={1946},
+	pages={295--315},
+	url={http://dx.doi.org/10.1121/1.1916366}
+}
+@Article{plessix99,
+    	title = "Waveform inversion of reflection seismic data for kinematic parameters by local inversion",
+    	author = "R.-E. Plessix and G. Chavent and Y.-H. De Roeck",
+    	journal = "{SIAM} {J}ournal of {S}cientific {C}omputing",
+    	year = "1999",
+    	volume = "20",
+    	number = "3",
+    	pages = "1033--1052",
+	url={http://dx.doi.org/10.1137/S1064827596311980}
+}
+@Article{plessix04,
+    title = "Frequency-domain finite-difference amplitude-preserving migration",
+    author = "R.-E. Plessix and W. A. Mulder",
+    journal = "{G}eophysical {Journal} {I}nternational",
+    year = "2004",
+    volume = "157",
+    pages = "975--987",
+url={http://dx.doi.org/10.1111/j.1365-246X.2004.02282.x}
+}
+@Article{plessix06,
+    title = "A review of the adjoint-state method for computing the gradient of a functional with geophysical applications",
+    author = "R.-E. Plessix",
+    journal = "{G}eophysical {J}ournal {I}nternational",
+    year = "2006",
+    volume = "167",
+    number="2",
+    pages = "495--503",
+url={http://dx.doi.org/10.1111/j.1365-246X.2006.02978.x}
+}
+@article{plessix09,
+author = {Ren\'{e}-\'{E}douard Plessix},
+collaboration = {},
+title = {Three-dimensional frequency-domain full-waveform inversion with an iterative solver},
+publisher = {SEG},
+year = {2009},
+journal = {Geophysics},
+volume = {74},
+number = {6},
+pages = {WCC149-WCC157},
+keywords = {data acquisition; seafloor phenomena; seismic waves; seismology},
+url = {http://link.aip.org/link/?GPY/74/WCC149/1},
+doi = {10.1190/1.3211198}
+}
+
+@Article{pica90,
+    title = "Nonlinear inversion of seismic reflection data in a laterally invariant medium",
+    author = "A. Pica and J. P. Diet and A. Tarantola",
+    journal = "Geophysics",
+    year = "1990",
+    volume = "55",
+    number = "3",
+    pages = "284--292",
+url={http://dx.doi.org/10.1190/1.1442836 }
+}
+@article{potthast06,
+	title={A survey on sampling and probe methods for inverse problems},
+	author={R. Potthast},
+	journal = "{I}nverse {P}roblems",
+    	year = "2006",
+    	volume = "22",
+	number="2",
+    	pages = "R1--R47",
+	url={http://dx.doi.org/10.1088/0266-5611/22/2/R01}
+}
+@ARTICLE{pratt96,
+ 	author={R.G. Pratt and Z.M. Song and P. Williamson and M. Warner},
+ 	title={Two-dimensional velocity models from wide-angle seismic data by wavefield inversion},
+ 	journal={{G}eophysical {J}ournal {I}nternational},
+ 	volume={124},
+	number={2},
+ 	year={1996},
+ 	pages={232--340},
+ 	url={http://dx.doi.org/10.1111/j.1365-246X.1996.tb07023.x}
+}
+@Article{pratt98,
+    	title = "{G}auss-{N}ewton and full-{N}ewton methods in frequency space seismic waveform inversion",
+    	author = "R.G. Pratt and G.J. Hicks",
+    	journal = "{G}eophysical {J}ournal {I}nternational",
+    	year = "1998",
+    	volume = "133",
+    	number = "2",
+    	pages = "341--362",
+	url={http://dx.doi.org/10.1046/j.1365-246X.1998.00498.x}
+}
+@article{rakesh03,
+  	author={Rakesh},
+  	title={An inverse problem for a layered medium with a point source},
+  	journal={{I}nverse {P}roblems},
+  	volume={19},
+  	number={3},
+  	pages={496--506},
+  	year={2003},
+ 	url={http://dx.doi.org/10.1088/0266-5611/19/3/301}
+}
+@article{rakesh08,
+  author={Rakesh},
+  title={Inverse problems for the wave equation with a single coincident source\&ndash;receiver pair},
+  journal={{I}nverse {P}roblems},
+  volume={24},
+  number={1},
+  pages={015012 (16pp)},
+  year={2008},
+  url={http://dx.doi.org/10.1088/0266-5611/24/1/015012}
+}
+@article{rector94,
+	author = {J.W. Rector III and J.K. Washbourne},
+collaboration = {},
+	title = {Characterization of resolution and uniqueness in crosswell direct-arrival traveltime tomography using the Fourier projection slice theorem},
+	publisher = {SEG},
+	year = {1994},
+	journal = {Geophysics},
+	volume = {59},
+	number = {11},
+	pages = {1642-1649},
+	url = {http://dx.doi.org/10.1190/1.1443553}
+}
+@Article{rickett02,
+    	title = "Offset and angle-domain common image-point gathers for shot-profile migration",
+    	author = "J.E. Rickett and P.C. Sava",
+    	journal = "Geophysics",
+    	year = "2002",
+    	volume = "67",
+    	number = "3",
+    	pages = "883--889",
+	url={http://dx.doi.org/10.1190/1.1484531}
+}
+@Article{rokhlin90,
+    	title = "Rapid solution of integral equations of scattering theory in two dimensions",
+    	author = "V. Rohklin",
+    	journal = "{J}ournal of {C}omputational {P}hysics",
+    	year = "1990",
+    	volume = "86",
+    	pages = "414--439",
+	url={http://dx.doi.org/10.1016/0021-9991(90)90107-C}
+}
+@Article{sambridge98,
+    	title = "Exploring multidimensional surfaces without a map",
+    	author = "M. Sambridge",
+    	journal = "{I}nverse {P}roblems",
+    	year = "1998",
+    	volume = "14",
+    	number="3",
+    	pages = "427--440",
+	url={http://dx.doi.org/10.1088/0266-5611/14/3/005}
+}
+@ARTICLE{sambridge92,
+ 	author={M. Sambridge and G. Drijkoningen},
+ 	title={Genetic algorithms in seismic waveform inversion},
+ 	journal={{G}eophysical {J}ournal {I}nternational},
+ 	volume={109},
+ 	number = {2},
+ 	year={19929},
+ 	pages={323--342 },
+	url={http://dx.doi.org/10.1111/j.1365-246X.1992.tb00100.x}
+}
+@ARTICLE{sambridge99a,
+ 	author={M. Sambridge},
+ 	title={Geophysical inversion with a neighbourhood algorithm -- I. Searching a parameter space},
+ 	journal={{G}eophysical {J}ournal {I}nternational},
+ 	volume={138},
+ 	number = {2},
+ 	year={1999},
+ 	pages={479--494},
+	url={http://dx.doi.org/10.1046/j.1365-246X.1999.00876.x}
+}
+@ARTICLE{sambridge99b,
+ 	author={M. Sambridge},
+ 	title={Geophysical inversion with a neighbourhood algorithm -- II. Appraising the ensemble},
+ 	journal={{G}eophysical {J}ournal {I}nternational},
+ 	volume={138},
+ 	number = {3},
+ 	year={1999},
+ 	pages={727--746},
+url={http://dx.doi.org/10.1046/j.1365-246x.1999.00900.x}
+}
+@Article{sava04,
+    	title = "Wave-equation migration velocity analysis. {I}. {T}heory",
+    	author = "P.C. Sava and B. Biondi",
+    	journal = "{G}eophysical {P}rospecting",
+    	year = "2004",
+ 	volume = "52",
+    	pages = "593--606",
+	url={http://dx.doi.org/10.1111/j.1365-2478.2004.00447.x}
+}
+@Article{sava06,
+    	title = "Time-shift imaging condition in seismic migration",
+    	author = "P.C. Sava and S. Fomel",
+    	journal = "Geophysics",
+    	year = "2006",
+    	volume = "71",
+    	number = "6",
+    	pages = "S209--S217",
+	url={http://dx.doi.org/10.1190/1.2338824 }
+}
+@article{shen08,
+	author = {P. Shen and W.W. Symes},
+	title = {Automatic velocity analysis via shot profile migration},
+	publisher = {SEG},
+	year = {2008},
+	journal = {Geophysics},
+	volume = {73},
+	number = {5},
+	pages = {VE49-VE59},
+	url={http://dx.doi.org/10.1190/1.2972021}
+}
+@article{shin06,
+	author={C. Shin and D.-J. Min},
+	title={Waveform inversion using a logarithmic wavefield},
+	journal={Geophysics},
+	volume={71},
+	number={3},
+	year={2006},
+	pages={R31-R42},
+	url={http://dx.doi.org/10.1190/1.2194523}
+}
+@article{shin08,
+	author={C. Shin and Y.H. Cha},
+	title={Waveform inversion in the {L}aplace domain},
+	journal={{G}eophysical {J}ournal {I}nternational},
+	volume={132},
+	year={2008},
+	pages={922-931},
+	url={http://dx.doi.org/10.1111/j.1365-246X.2008.03768.x}
+}
+@article{shin09,
+	author={C. Shin and Y.H. Cha},
+	title={Waveform inversion in the {L}aplace-{F}ourier domain},
+	journal={{G}eophysical {J}ournal {I}nternational},
+	volume={177},
+	year={2009},
+	pages={1067-1079},
+	url={http://dx.doi.org/10.1111/j.1365-246X.2009.04102.x}
+}
+
+@Article{sirgue03,
+    	title = "Efficient waveform inversion and imaging: a strategy for selecting temporal frequencies",
+    	author = "L. Sirgue and R.G. Pratt",
+    	journal = "Geophysics",
+    	year = "2004",
+    	volume = "69",
+    	number = "1",
+    	pages = "231--248",
+	url={http://dx.doi.org/10.1190/1.1649391}
+}
+@Article{snieder89,
+    	title = "Retrieving both the impedance contrast and the background velocity: A global strategy for the seismic reflection problem",
+    	author = "R. Snieder and M. Y. Xie and A. Pica and A. Tarantola",
+    	journal = "Geophysics",
+    	year = "1989",
+    	volume = "54",
+    	number = "8",
+    	pages = "991--1000",
+	url={http://dx.doi.org/10.1190/1.1442742 }
+}
+@Article{stewart77,
+    	title = "On the perturbation of pseudo-inverses, projections and linear least squares problems",
+    	author = "G.W. Stewart",
+    	journal = "{SIAM} {R}eview",
+    	year = "1977",
+    	volume = "19",
+    	number = "4",
+    	pages = "634--662",
+	url={http://dx.doi.org/10.1137/1019104}
+}
+@ARTICLE{stolk03,
+ 	author={C.C. Stolk and W.W. Symes},
+ 	title={Smooth objective functionals for seismic velocity inversion},
+ 	journal={{I}nverse {P}roblems},
+ 	volume={19},
+ 	year={2003},
+ 	pages={73--89},
+	url={http://dx.doi.org/10.1088/0266-5611/19/1/305}
+}
+@Article{stolk04,
+    	title = "Kinematic artifacts in prestack depth migration",
+    	author = "C.C. Stolk and W.W. Symes",
+    	journal = "Geophysics",
+    	year = "2004",
+    	volume = "69",
+    	number = "2",
+    	pages = "562–575",
+	url={http://dx.doi.org/10.1190/1.1707076 }
+}
+@Article{stolk06,
+    	title = "Seismic inverse scattering in the downward continuation approach",
+    	author = "C.C. Stolk and M.V. de Hoop",
+    	journal = "{W}ave {M}otion",
+    	year = "2006",
+    	volume = "43",
+    	pages = "579--598",
+	url={http://dx.doi.org/10.1016/j.wavemoti.2006.05.003}
+}
+@Article{stolk09,
+    	title = "Kinematics of shot-geophone migration",
+    	author = "C.C. Stolk and M.V. de Hoop and W.W. Symes",
+    	journal = "Geophysics",
+    	year = "2009",
+    	volume = "74",
+    	number = "6",
+    	pages = "WCA19--WCA34",
+	url={http://dx.doi.org/10.1190/1.3256285}
+}
+@Article{stork92,
+    	title = "Reflection tomography in the postmigrated domain",
+    	author = "C. Stork",
+    	journal = "Geophysics",
+    	year = "1992",
+    	volume = "57",
+    	number = "5",
+    	pages = "680--692",
+	url={http://dx.doi.org/10.1190/1.1443282}
+}
+@article{symes90,
+	title="Velocity inversion: A case study in infinite-dimensional optimization",
+	author="W.W. Symes",
+	journal="{M}athematical {P}rogramming",
+	year="1990",
+	volume="48",
+	pages="71--102",
+	url={http://dx.doi.org/10.1007/BF01582252}
+}
+@Article{symes91,
+    	title = "Velocity inversion by differential semblance optimization",
+    	author = "W.W. Symes and J.J. Carazzone",
+    	journal = "Geophysics",
+    	year = "1991",
+    	volume = "56",
+    	number = "5",
+    	pages = "654--663",
+	url={http://dx.doi.org/10.1190/1.1443082}
+}
+@article{symes91a,
+	author = {W.W. Symes},
+	title = {Layered Velocity Inversion: A Model Problem from Reflection Seismology},
+	publisher = {SIAM},
+	year = {1991},
+	journal = {{SIAM} {J}ournal on {M}athematical {A}nalysis},
+	volume = {22},
+	number = {3},
+	pages = {680-716},
+	url={http://dx.doi.org/10.1137/0522042}
+}
+@article{symes08a,
+	author = {W.W. Symes},
+	title = {Approximate linearized inversion by optimal scaling of prestack depth migration},
+	publisher = {SEG},
+	year = {2008},
+	journal = {Geophysics},
+	volume = {73},
+	number = {2},
+	pages = {R23-R35},
+	url={http://dx.doi.org/10.1190/1.2836323}
+}
+@article{symes08b,
+	title="Migration velocity analysis and waveform inversion",
+	author="W.W. Symes",
+	journal="{G}eophysical {P}rospecting",
+	year="2008",
+	volume="56",
+	number="6",
+	pages="765--790",
+	url={http://dx.doi.org/10.1111/j.1365-2478.2008.00698.x}
+}
+@Article{tarantola82,
+    	title = "Generalized nonlinear inverse problems solved using the least squares criterion",
+    	author = "A. Tarantola and A. Valette",
+    	journal = "{R}eviews of {G}eophysics and {S}pace {P}hysics",
+    	year = "1982",
+    	volume = "20",
+    	number = "2",
+    	pages = "129--232",
+	url={http://dx.doi.org/10.1029/RG020i002p00219}
+}
+@Article{tarantola84,
+    	title = "Inversion of seismic reflection data in the acoustic approximation",
+    	author = "A. Tarantola",
+    	journal = "Geophysics",
+    	year = "1984",
+    	volume = "49",
+    	number = "8",
+    	pages = "1259--1266",
+	url={http://dx.doi.org/10.1190/1.1441754}
+}
+@article{toldi89,
+	author = {J.L. Toldi},
+	title = {Velocity analysis without picking},
+	publisher = {SEG},
+	year = {1989},
+	journal = {Geophysics},
+	volume = {54},
+	number = {2},
+	pages = {191-199},
+	url={http://dx.doi.org/10.1190/1.1442643}
+}
+@article{tromp05,
+	author={J. Tromp and C. Tape and Q. Liu},
+	title={Seismic tomography, adjoint methods, time reversel and banana-doughnut kernels},
+	journal={{G}eophysical {J}ournal {I}nternational},
+	year={2005},
+	volume={160},
+	pages={195--216},
+	url={http://dx.doi.org/10.1111/j.1365-246X.2004.02453.x}
+}
+@ARTICLE{vasco98,
+ 	author={D.W. Vasco},
+ 	title={Regularization and trade-off associated with nonlinear geophysical inverse problems: penalty homotopies},
+ 	journal={{I}nverse {P}roblems},
+ 	volume={14},
+ 	year={1998},
+ 	pages={1033--1052},
+	url={http://dx.doi.org/10.1088/0266-5611/14/4/018}
+}
+@article{vasconcelos10,
+	author={I. Vasconcelos and P. Sava and H. Douma},
+	title={Nonlinear extended images via image-domain interferometry},
+	journal={Geophysics},
+	volume={75},
+	number={6},
+	year={2010},
+	pages={SA105--SA115}
+}
+@article{versteeg93,
+	author = {R.J. Versteeg},
+	title = {Sensitivity of prestack depth migration to the velocity model},
+	publisher = {SEG},
+	year = {1993},
+	journal = {Geophysics},
+	volume = {58},
+	number = {6},
+	pages = {873-882},
+	url={http://dx.doi.org/10.1190/1.1443471}
+}
+@article{virieux09,
+	author = {J. Virieux and S. Operto},
+	collaboration = {},
+	title = {An overview of full-waveform inversion in exploration geophysics},
+	publisher = {SEG},
+	year = {2009},
+	journal = {Geophysics},
+	volume = {74},
+	number = {6},
+	pages = {WCC1-WCC26},
+	keywords = {geophysical prospecting; seismic waves; seismology; seismometers},
+	url = {http://dx.doi.org/10.1190/1.3238367}
+}
+@article{wang97,
+	author = "Y. Wang and R.G. Pratt",
+	title = "Sensitivities of seismic traveltimes and amplitudes in reflection tomography",
+	journal="{G}eophysical {J}ournal {I}nternational",
+	volume="131",
+	number="3",
+	year="1997",
+	pages="618--642",
+	url={http://dx.doi.org/10.1111/j.1365-246X.1997.tb06603.x }
+}
+@Article{wedin73,
+    	title = "Perturbation theory for pseudo-inverses",
+    	author = "P.-A. Wedin",
+    	journal = "{BIT} Numerical Mathematics",
+    	year = "1973",
+    	pages = "217--232",
+	url={http://dx.doi.org/10.1007/BF01933494/}
+}
+@article{weglein03,
+	author={A.B. Weglein,F.V. Araujo,P.M. Carvalho,R.H. Stolt,K.H. Matson, R.T. Coates,D. Corrigan,D.J. Foster,S.A. Shaw and
+H. Zhang},
+	title={Inverse scattering series and seismic exploration},
+	journal={{I}nverse {P}roblems},
+	volume={19},
+	year={2003},
+	pages={R27--R83},
+	url={http://dx.doi.org/10.1088/0266-5611/19/6/R01}
+}
+@article{yang10,
+author = {Tongning Yang and Paul Sava},
+collaboration = {},
+title = {Moveout analysis of wave-equation extended images},
+publisher = {SEG},
+year = {2010},
+journal = {Geophysics},
+volume = {75},
+number = {4},
+pages = {S151-S161},
+keywords = {geophysical image processing; geophysical techniques; seismic waves; seismology},
+url = {http://link.aip.org/link/?GPY/75/S151/1},
+doi = {10.1190/1.3460296}
+}
+
+@article{yilmaz84,
+ 	author={O. Yilmaz and R. Chambers},
+ 	title={Migration velocity analysis by wavefield extrapolation},
+ 	journal={Geophysics},
+ 	year={1984},
+ 	pages={1664--1674},
+	url={http://dx.doi.org/10.1190/1.1441574}
+}
+@Article{youn01,
+    title = "Depth imaging with multiples",
+    author = "O.K. Youn and H. Zhou",
+    journal = "Geophysics",
+    year = "2001",
+    volume = "66",
+    number = "1",
+    pages = "246--255",
+url={http://dx.doi.org/10.1190/1.1444901}
+}
+@article{zeev06,
+	title="Non-monotone spectral projected gradient method applied to full waveform inversion",
+	author="N. Zeev,O. Savasta and D. Cores",
+	journal="{G}eophysical {P}rospecting",
+	year="2006",
+	volume="54",
+	pages="525--534",
+	url={http://dx.doi.org/10.1111/j.1365-2478.2006.00554.x}
+
+}
+@Article{zhou95,
+    	title = "Accoustic wave-equation traveltime and waveform inversion of crosshole seismic data",
+    	author = "C. zhou and W. Cai and Y. Luo and G. Schuster and S. Hassanzadeh",
+    	journal = "Geophysics",
+    	year = "1995",
+    	volume = "60",
+    	number = "3",
+    	pages = "765--773",
+	url={http://dx.doi.org/10.1190/1.1443815}
+}
+
+
+% proceedings
+@article{lailly83,
+  	title =   "The seismic inverse problem as a sequence of before stack migrations",
+  	journal = "{P}roc. {C}onf. {I}nverse {S}cattering, {T}heory and {A}pplications",
+  	author =  "P. Lailly",
+  	publisher =   "Soc. Industr. Appl. Math.",
+  	address = "Philedelphia",
+  	year =    "1983",
+  	editor =  "J. B. Bednar and R. Redner and E. Robinson and A. Weglein",
+	url={}
+}
+@article{faye86,
+	author = {J.-P. Faye and J.-P. Jeannot},
+	title = {Prestack migration velocities from focusing depth analysis},
+	publisher = {SEG},
+	year = {1986},
+	journal = {SEG {E}xpanded {A}bstracts},
+	volume = {5},
+	pages = {438-440},
+	url={http://dx.doi.org/10.1190/1.1893053 }
+}
+@Article{leeuwen07a,
+	title = "Data-Correlation for Velocity Analysis on Simple 1D Models",
+	author = "T. van Leeuwen and W.A. Mulder",
+	journal = "{EAGE} {E}xtended {A}bstracts",
+	year = "2007",
+	url={http://www.earthdoc.org/detail.php?pubid=6852}
+}
+@article{leeuwen07b,
+	author = {T. van Leeuwen and W. A. Mulder},
+	collaboration = {},
+	title = {Data correlation for velocity inversion},
+	publisher = {SEG},
+	year = {2007},
+	journal = {{SEG} {E}xpanded {A}bstracts},
+	volume = {26},
+	number = {1},
+	pages = {1800-1804},
+	url={http://dx.doi.org/10.1190/1.2792841}
+}
+@Article{leeuwen08a,
+	title = "Waveform Inversion with Data Correlation",
+	author = "T. van Leeuwen and W.A. Mulder",
+	journal = "{EAGE} {E}xtended {A}bstracts",
+	year = "2008",
+	url={http://www.earthdoc.org/detail.php?pubid=10121}
+}
+@Article{leeuwen08b,
+	title = "Velocity analysis in the data domain – overview and prospects",
+	author = "T. van Leeuwen and W.A. Mulder",
+	journal = "{EAGE} {E}xtended {A}bstracts",
+	year = "2008",
+	url={http://www.earthdoc.org/detail.php?pubid=10532}
+}
+
+@article{leeuwen08c,
+	author = {T. van Leeuwen and W.A. Mulder},
+	collaboration = {},
+	title = {Velocity analysis with multiples --- {NMO} modeling for layered velocity structures},
+	publisher = {SEG},
+	year = {2008},
+	journal = {{SEG} {E}xpanded {A}bstracts},
+	volume = {27},
+	number = {1},
+	pages = {1925-1929},
+	url={http://dx.doi.org/10.1190/1.3059275}
+}
+@article{mulder08b,
+	author = {W.A. Mulder and T. van Leeuwen},
+	collaboration = {},
+	title = {Automatic migration velocity analysis and multiples},
+	publisher = {SEG},
+	year = {2008},
+	journal = {{SEG} {E}xpanded {A}bstracts},
+	volume = {27},
+	number = {1},
+	pages = {3128-3132},
+	url={http://dx.doi.org/10.1190/1.3063996}
+}
+@article{mulder02b,
+	author={W.A. Mulder and R.-E. Plessix},
+	title={Time- Versus Frequency-Domain Modelling of Seismic Wave Propagation},
+	journal={{EAGE} {E}xpanded {A}bstracts},
+	year={2002},
+	pages={E015--E015},
+	url={http://www.earthdoc.org/detail.php?pubid=5703}
+}
+@Article{leeuwen09a,
+	title = "A Variable Projection Method for Waveform Inversion",
+	author = "T. van Leeuwen and W.A. Mulder",
+	journal = "{EAGE} {E}xpanded {A}bstracts",
+	year = "2009",
+	url={http://www.earthdoc.org/detail.php?pubid=24056}
+}
+
+@Article{berkhout03,
+    title = "Transformation of multiples into primary reflections",
+    author = "A.J. Berkhout and D.J. Verschuur",
+    journal = "{SEG} {E}xpanded {A}bstracts",
+    year = "2003",
+    pages = "1925--1928",
+	url={http://dx.doi.org/10.1190/1.1817697}
+}
+@Article{berkhout04,
+    title = "Imaging multiple reflections, the concept",
+    author = "A.J. Berkhout and D.J. Verschuur",
+    journal = "{SEG} {E}xpanded {A}bstracts",
+    year = "2004",
+    pages = "1273-1276",
+	url={http://dx.doi.org/10.1190/1.1851100}
+}
+@article{palamodov06,
+	title = "Stable reconstruction from scattering data",
+	author = "V. Palamodov",
+	journal = "{PIMS} {G}eophysical {I}nversion {W}orksop, {C}algary",
+	year = "2006",
+	url={http://www.math.tau.ac.il/~palamodo/pdf/calover3.pdf}
+}
+@Article{verschuur07,
+    	title = "Velocity model estimation using primaries and surface-related multiples",
+    	author = "D.J. Verschuur and A.J. Berkhout",
+    	journal = "{SEG} {E}xpanded {A}bstracts",
+    	year = "2007",
+    	pages = "2837--2841",
+	url={http://dx.doi.org/10.1190/1.2793056}
+}
+@Article{chavent94,
+    title = "Automatic determination of velocities via migration-based traveltime waveform inversion: A synthetic data example",
+    author = "G. Chavent and F. Cl\'ement and S. G\'omez",
+    journal = "{SEG} {E}xpanded {A}bstracts",
+    year = "1994",
+    volume="13",
+    pages = "1179--1182",
+	url={http://dx.doi.org/10.1190/1.1822731}
+}
+@article{higginbotham08,
+	author = {Joseph H. Higginbotham and Morgan P. Brown and Robert G. Clapp},
+	title = {Wave equation migration velocity focusing analysis},
+	publisher = {SEG},
+	year = {2008},
+	journal = {{SEG} {E}xpanded {A}bstracts},
+	volume = {27},
+	pages = {3083-3087},
+	url={http://dx.doi.org/10.1190/1.3063985}
+}
+@Article{akcelik02,
+    title = "Parallel {G}auss-{N}ewton-{K}rylov methods for inverse wave-propagation",
+    author = "V. Akcelik and G. Biros and O. Ghattas",
+    journal = "Proc. ACM/IEEE SC 2002 Conference",
+    year = "2002",
+    pages = "41",
+	url={http://dx.doi.org/10.1109/SC.2002.10002}
+}
+
+
+
+@Article{bancroft03,
+    title = "Visualized connections between seismic inversion and prestack seismic migration",
+    author = "J.C. Bancroft",
+    journal = "{EAGE} {E}xpanded {A}bsracts",
+    year = "2003",
+	url={http://www.earthdoc.org/detail.php?pubid=2957}
+}
+@Article{shen03,
+    title = "Differential semblance velocity analysis by wave-equation migration",
+    author = "P. Shen and W. W. Symes and C. C. Stolk",
+    journal = "{SEG} {E}xpanded {A}bstracts",
+    year = "2003",
+    pages = "2132--2135",
+	url={http://dx.doi.org/10.1190/1.1817759}
+}
+@Article{li05,
+    title = "Fast interval velocity estimation via {NMO}-based differential semblance",
+    author = "J. Li and W. W. Symes",
+    journal = "{SEG} {E}xpanded {A}bstracts",
+    year = "2005",
+    pages = "2265-2268",
+	url={http://dx.doi.org/}
+}
+@article{mantzel07,
+author = {W. Mantzel and J. Romberg and K. Sabra},
+title={Randomized Group Testing for Acoustic Source Localization},
+journal={SPIE Computational Imaging VIII},
+year={2010}
+}
+@Article{savasta97,
+    title = "Wave-equation traveltime inversion using {2D} cross-correlation function",
+    author = "O. Savasta and A. Ziolkowski and R. G. Pearce",
+    journal = "{SEG} {E}xpanded {A}bstracts",
+    volume = "16",
+    year = "1997",
+    pages = "1444--1447",
+	url={http://dx.doi.org/10.1190/1.2148168}
+}
+@ARTICLE{leleu01,
+ author={C. Leleu and Y.-H. de Roeck and F. Cl{\'e}ment and G. Chavent},
+ title={Waveform inversion for the estimation of acquisition parameters from 3-{D} VHR marine data.},
+ journal={{SEG} {E}xpanded {A}bstracts},
+ year={2001},
+url={http://dx.doi.org/10.1190/1.1816720}
+}
+@ARTICLE{dussaud05,
+ author={E.A. Dussaud and W.W. Symes},
+ title={Velocity analysis from interferometric data},
+ journal={{SEG} {E}xpanded {A}bstracts },
+ year={2005},
+ pages={2237--2241},
+url={http://dx.doi.org/10.1190/1.2148161}
+}
+@article{celis02,
+ author={V. Celis and K. Larner},
+ title={Selective Correlation velocity analysis},
+ journal={{SEG} {E}xpanded {A}bstracts},
+ year={2002},
+ pages={2289--2292},
+ url={http://dx.doi.org/10.1190/1.1817170}
+}
+@Article{symes04a,
+    title = "Reverse time shot-geophone migration",
+    author = "W.W. Symes and C.C. Stolk and B. Biondi and F. Gao",
+    institution = "Rice inversion project",
+    year = {2004},
+url={http://www.trip.caam.rice.edu/downloads/pims03.pdf}
+}
+%Books
+@BOOK{Kanasewich85,
+	title = "Time Sequence Analysis in Geophysics",
+	author = "E.R. Kanasewich",
+	publisher = "University of Alberta Press",
+	year = "1985",
+	url={http://books.google.com/books?id=k8SSLy-FYagC&lpg=PR11&ots=gqlxYeJ7B2&dq=Time%20Sequence%20Analysis%20in%20Geophysics&lr&pg=PR11#v=onepage&q&f=false}
+}
+@BOOK{keys98,
+     title = "Comparison of Seismic Inversion Methods on a Single Real Dataset",
+     author = "R. Keys and D. Foster",
+     year = "1998",
+     publisher = "Society of Exploration Geophysicists",
+     address="Tulsa, OK",
+	url={http://dx.doi.org/}
+}
+@BOOK{snieder99b,
+ author={R. Snieder and J. Trampert},
+ title={Inverse Problems in Geophysics},
+ publisher={Springer Verlag},
+ address={New York},
+ year={1999},
+url={www.mines.edu/~rsnieder/snieder_trampert_00.pdf}
+}
+@BOOK{shen95,
+ author={M.K. Shen and P.L. Stoffa},
+ title={Global Optimization Methods In Geophysical Inversion},
+ publisher={Elsevier},
+ address={New York},
+ year={1995},
+url={http://www.knovel.com/web/portal/browse/display?_EXT_KNOVEL_DISPLAY_bookid=1941}
+}
+@book{symes89b,
+title={An analysis of Least-squares velocity inversion},
+author={F. Santosa and W.W. Symes},
+series={Geophysical monograph series},
+volume={4},
+publisher={Society of Exploration Geophysicists},
+year={1989},
+url={http://www.amazon.com/Analysis-Least-Squares-Inversion-Geophysical-Monograph/dp/0931830788}
+}
+@BOOK{rapcsakB,
+ author={T. Rapcs{\'a}k},
+ title={Smooth nonlinear optimization in $\mathcal{R}^n$},
+ series={Nonconvex optimization and its applications},
+ volume={19},
+ publisher={Kluwer academic publishers},
+ address={Dordrecht},
+ year={1997},
+url={http://books.google.com/books?id=lUQMrq9wyJwC&lpg=PP1&dq=Smooth%20nonlinear%20optimization%20in&pg=PP1#v=onepage&q&f=false}
+}
+@BOOK{kirsch96B,
+ author={A. Kirsch},
+ title={An Introduction to the Mathemathical Theory of Inverse Problems},
+ series={Applied Mathematical Sciences},
+ volume={120},
+ publisher={Springer-Verlag},
+ address={New York},
+ year={1996},
+url={http://books.google.com/books?id=gPgXwf56YdEC&lpg=PP1&dq=An%20Introduction%20to%20the%20Mathemathical%20Theory%20of%20Inverse%20Problems&pg=PP1#v=onepage&q&f=false}
+}
+@BOOK{bleistein01B,
+ author={N. Bleistein and J.K. Cohen and J.W. Stockwell jr.},
+ title={Mathematics of Multidimensional Seismic Imaging and Inversion},
+ series={Interdisciplinary applied mathematics},
+ volume={13},
+ publisher={Springer-Verlag},
+ address={New York},
+ year={2001},
+url={http://books.google.com/books?id=xj3t1232w_0C&lpg=PP1&dq=Mathematics%20of%20Multidimensional%20Seismic%20Imaging%20and%20Inversion&pg=PP1#v=onepage&q&f=false}
+}
+@BOOK{bleistein84B,
+ author={N. Bleistein},
+ title={Mathematical methods for wave phenomena},
+ series={Computer Science and Applied Mathematics},
+ volume={13},
+ publisher={Academic press},
+ address={New York},
+ year={1984},
+url={http://www.elsevier.com/wps/find/bookdescription.editors/674624/description#description}
+}
+@BOOK{bleistein75B,
+ author={N. Bleistein and R. Handelsman},
+ title={Asymptotic Expansions of Integrals},
+ publisher={Dover},
+ address={New York},
+ year={1975},
+url={http://books.google.com/books?id=xj3t1232w_0C&lpg=PP1&dq=Mathematics%20of%20Multidimensional%20Seismic%20Imaging%20and%20Inversion&pg=PP1#v=onepage&q&f=false}
+}
+@BOOK{ghoshroy02B,
+ author={D.N.  Ghosh Roy and L.S. Couchman},
+ title={Inverse Problems and Inverse Scattering of Plane Waves},
+ publisher={Academic Press},
+ address={New York},
+ year={2002},
+url={http://www.amazon.com/Inverse-Problems-Scattering-Plane-Waves/dp/0122818652}
+}
+@BOOK{vogel02B,
+ author={C.R. Vogel},
+ title={Computational Methods for Inverse Problems},
+ series={Frontiers in Applied Mathematics},
+ volume={23},
+ publisher={SIAM},
+ address={Philadelphia},
+ year={2002},
+url={Computational Methods for Inverse Problems}
+}
+@BOOK{Engl96B,
+ author={H.W. Engl and M. Hanke and A. Neubauer},
+ title={Regularization of Inverse Problems},
+ publisher={Kluwer Academic Publshers},
+ address={Dordrecht},
+ year={1996},
+url={Regularization of Inverse Problems}
+}
+@book{cerveny01,
+author={V. \v{C}erven\'y},
+title={Seismic ray theory},
+publisher={Cambridge {U}niversity {P}ress},
+year={2001},
+url={http://books.google.com/books?id=am7sJ-VyoroC&lpg=PP1&dq=seismic%20ray%20theory&pg=PP1#v=onepage&q&f=false}
+}
+@book{nolet87,
+author={G. Nolet},
+title={Seismic tomography},
+publisher={D. Reidel Publishing Company},
+year={1987},
+url={http://dx.doi.org/}
+}
+@book{nolet08,
+author={G. Nolet},
+title={A breviary of seismic tomography},
+publisher={Cambridge university press},
+year={2008},
+url={http://books.google.com/books?id=am7sJ-VyoroC&lpg=PP1&dq=seismic%20ray%20theory&pg=PP1#v=onepage&q&f=false}
+}
+@BOOK{bjorck96,
+author={A. Bj\"{o}rck},
+title={Numerical methods for Least Squares problems},
+publisher={SIAM},
+year={1996},
+url={http://books.google.com/books?id=am7sJ-VyoroC&lpg=PP1&dq=seismic%20ray%20theory&pg=PP1#v=onepage&q&f=false}
+}
+@BOOK{Scales97B,
+ author={J.A. Scales},
+ title={A Theory of Seismic Imaging},
+ edition={2},
+ publisher={Samizdat},
+ address={},
+ year={1997},
+url={http://samizdat.mines.edu/imaging/imaging.pdf}
+}
+@BOOK{claerbout85,
+ author={J.F. Claerbout},
+ title={Imaging the earth's interior},
+ publisher={Blackwell Scientific Publishers},
+ year={1985},
+url={http://sepwww.stanford.edu/sep/prof/iei/toc_html/}
+}
+@book{wapenaar89,
+author = {C.P.A Wapenaar and A.J. Berkhout},
+title = {Elastic wave field extrapolation},
+series = {Advances in exploration geophysics},
+publisher = {Elsevier},
+year = {1989},
+address = {Amsterdam},
+url={http://www.amazon.com/Elastic-Wave-Field-Extrapolation-Multi-Component/dp/0444884726}
+}
+@book{folland89,
+author={G.B. Folland},
+title={Harmonic analysis in phase space},
+publisher={Princeton University Press},
+series={Annals of Mathematics Studies},
+year={1989},
+url={Harmonic analysis in phase space}
+}
+@book{strichartz,
+author={R.S. Strichartz},
+title={A guide to distribution theory and {F}ourier transforms},
+publisher={World Scientific},
+year={2003},
+url={http://www.worldscibooks.com/mathematics/5314.html}
+}
+
+@book{yilmaz87,
+	author={O. Yilmaz},
+	title={Seismic data processing},
+	publisher={Atlantic Books},
+	year={1987},
+	url={http://www.amazon.com/Seismic-Data-Processing-Investigations-Geophysics/dp/0931830400}
+}
+@book{zemansky68,
+author = {M.W. Zemansky and R.H. Dittman},
+title = {Heat and thermodynamics},
+publisher = {McGraw -- Hill},
+year = {1968},
+url={http://www.ebook3000.com/Heat-and-Thermodynamics_21259.html}
+}
+@book{sheriff82,
+author={R.E. Sheriff and L.P. Geldart},
+title={Exploration Seismology},
+publisher={Cambridge university press},
+year={1982},
+url={http://dx.doi.org/}
+}
+@book{gaskill78,
+author={J.D. Gaskill},
+title={Linear systems, {Fourier} transforms, and optics},
+publisher={{J}ohn {W}iley \& {S}ons},
+year={1978},
+url={http://dx.doi.org/10.2277/0521468264}
+}
+%reports
+@techreport{chavent93,
+    author = "G. Chavent and F. Cl{\'e}ment",
+    title  = "Waveform inversion through {MBTT} formulation",
+    number = {1893},
+    institution = "INRIA",
+    year = {1993},
+	url={http://hal.archives-ouvertes.fr/docs/00/07/48/33/PDF/RR-1839.pdf}
+}
+@techreport{symes04b,
+    title = "Nonlinear generalization of Claerbout's extended scattering model",
+    author = "W.W. Symes",
+    institution = "Rice inversion project",
+    year = {2004},
+	url={www.trip.caam.rice.edu/reports/2004/papers/jonnonlin.pdf}
+}
+@techreport{symes99,
+    author = "W.W. Symes",
+    title  = "All stationary points of differential are global minimizers: Layered acoustics",
+    number = {100},
+    institution = "Stanford Exploration Project",
+    year = {1999},
+    pages = {71--92},
+    url = {http://sepwww.stanford.edu/public/docs/sep100/bill3.pdf}
+}
+@techreport{doherty74,
+    author = "S.M. Doherty and J.F. Claerbout",
+    title  = "Velocity analysis based on the wave equation.",
+    number = {1},
+    institution = {Stanford Exploration Project.},
+    year = {1974},
+    pages = {160--178},
+    url = "http://sepwww.stanford.edu/oldreports/sep01/01_12.pdf"
+}
+@conference{herrmann09cib,
+	Abstract = {Migration relies on multi-dimensional correlations between source- and residual wavefields. These multi-dimensional correlations are computationally expensive because they involve operations with explicit and full matrices that contain both wavefields. By leveraging recent insights from compressive sampling, we present an alternative method where linear correlation-based imaging is replaced by imaging via multidimensional deconvolutions of compressibly sampled wavefields. Even though this approach goes at the expense of having to solve a sparsity-promotion recovery program for the image, our wavefield inversion approach has the advantage of reducing the system size in accordance to transform-domain sparsity of the image. Because seismic images also exhibit a focusing of the energy towards zero offset, the compressive-wavefield inversion itself is carried out using a recent extension of one-norm solver technology towards matrix-valued problems. These so-called hybrid $(1,\,2)$-norm solvers allow us to penalize pre-stack energy away from zero offset while exploiting joint sparsity amongst near-offset images. Contrary to earlier work to reduce modeling and imaging costs through random phase-encoded sources, our method compressively samples wavefields in model space. This approach has several advantages amongst which improved system-size reduction, and more flexibility during subsequent inversions for subsurface properties.},
+	Author = {F. J. Herrmann},
+	Booktitle = {SEG Technical Program Expanded Abstracts},
+	Date-Added = {2009-06-23 16:09:07 -0700},
+	Date-Modified = {2009-10-05 13:41:46 -0700},
+	Keywords = {SEG},
+	Number = {1},
+	Organization = {SEG},
+	Pages = {2337-2341},
+	Pdf = {http://slim.eos.ubc.ca/Publications/Public/Conferences/SEG/2009/herrmann09segciw.pdf},
+	Publisher = {SEG},
+	Title = {Compressive imaging by wavefield inversion with group sparsity},
+	Volume = {28},
+	Year = {2009},
+	Bdsk-Url-1 = {http://slim.eos.ubc.ca/Publications/Public/Conferences/SEG/2009/herrmann09segciw.pdf}}
+

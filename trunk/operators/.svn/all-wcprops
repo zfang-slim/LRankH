@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/63/trunk/operators
+END
+opSmooth.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/operators/opSmooth.m
+END
+opExtension.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/operators/opExtension.m
+END
+opDFTR.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/operators/opDFTR.m
+END
+opSpline1D.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/63/trunk/operators/opSpline1D.m
+END
+opSpline2D.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/operators/opSpline2D.m
+END
+test.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/operators/test.m
+END
+opLInterp1D.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/operators/opLInterp1D.m
+END
+opLInterp2D.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/operators/opLInterp2D.m
+END

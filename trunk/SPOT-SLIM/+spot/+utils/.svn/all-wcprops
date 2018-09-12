@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils
+END
+fieldname.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/fieldname.m
+END
+parseOptions.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/parseOptions.m
+END
+fdct_v2c.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/fdct_v2c.m
+END
+fdct_c2v.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/fdct_c2v.m
+END
+isposintscalar.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/isposintscalar.m
+END
+optimalBracketing.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/optimalBracketing.m
+END
+SpotTestRunDisplay.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/SpotTestRunDisplay.m
+END
+drawDot.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/drawDot.m
+END
+spottree.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/spottree.m
+END
+getOption.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/getOption.m
+END
+nDimsMultiply.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/nDimsMultiply.m
+END
+isposintmat.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/isposintmat.m
+END
+dct.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/dct.m
+END
+mefdct_v2c.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/mefdct_v2c.m
+END
+idct.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/+spot/+utils/idct.m
+END

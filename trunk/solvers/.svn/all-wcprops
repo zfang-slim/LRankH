@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/84/trunk/solvers
+END
+SGD.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/solvers/SGD.m
+END
+lbfgs.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/77/trunk/solvers/lbfgs.m
+END
+lbfgsbatch.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/solvers/lbfgsbatch.m
+END
+test.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/84/trunk/solvers/test.m
+END

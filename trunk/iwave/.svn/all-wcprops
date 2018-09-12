@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/99/trunk/iwave
+END
+iwave_wrmodel.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/30/trunk/iwave/iwave_wrmodel.m
+END
+iwave_wrparam.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/99/trunk/iwave/iwave_wrparam.m
+END
+getrick.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/iwave/getrick.m
+END
+write_trace.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/iwave/write_trace.m
+END
+iwave_wrdatahdr.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/iwave/iwave_wrdatahdr.m
+END
+iwave_wrsrc.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/iwave/iwave_wrsrc.m
+END

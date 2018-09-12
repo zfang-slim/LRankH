@@ -1,0 +1,129 @@
+10
+
+dir
+106
+https://wave.eos.ubc.ca/SLIM/SLIM.Projects.2DFDFWI/trunk
+https://wave.eos.ubc.ca/SLIM/SLIM.Projects.2DFDFWI
+
+
+
+2012-10-19T21:05:04.525787Z
+106
+tristan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14e48362-08b9-0410-b761-c3ab2d93d45d
+
+utils
+dir
+
+2DFreqModeling
+dir
+
+doc
+dir
+
+2DDFreqModeling
+dir
+
+2DEFreqModeling
+dir
+
+2DfsFreqModeling
+dir
+
+iwave
+dir
+
+misc
+dir
+
+README.txt
+file
+
+
+
+
+2012-10-26T23:50:00.000000Z
+b49e7183c179853cb153aa858b7e8e8e
+2012-03-01T18:12:29.454288Z
+17
+tristan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1946
+
+2DQfsFreqModeling
+dir
+
+solvers
+dir
+
+startup.m
+file
+
+
+
+
+2012-10-26T23:50:00.000000Z
+c70b22e52ac2e6cc3cda045c40f1e647
+2012-04-26T19:44:25.671504Z
+35
+tristan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+354
+
+operators
+dir
+

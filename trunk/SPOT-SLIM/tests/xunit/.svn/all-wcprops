@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/xunit
+END
+runtests.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/runtests.m
+END
+TestComponentInDir.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/TestComponentInDir.m
+END
+assertEqual.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/assertEqual.m
+END
+TestSuite.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/TestSuite.m
+END
+TestCaseWithAddPath.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/TestCaseWithAddPath.m
+END
+FunctionHandleTestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/FunctionHandleTestCase.m
+END
+Contents.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/Contents.m
+END
+info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/tests/xunit/info.xml
+END
+TestCaseInDir.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/TestCaseInDir.m
+END
+assertTrue.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/assertTrue.m
+END
+TestComponent.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/TestComponent.m
+END
+TestRunLogger.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/TestRunLogger.m
+END
+assertElementsAlmostEqual.m
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/assertElementsAlmostEqual.m
+END
+TestCase.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/TestCase.m
+END
+assertFalse.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/assertFalse.m
+END
+TestRunMonitor.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/TestRunMonitor.m
+END
+assertFilesEqual.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/assertFilesEqual.m
+END
+initTestSuite.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/initTestSuite.m
+END
+TestSuiteInDir.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/TestSuiteInDir.m
+END
+assertVectorsAlmostEqual.m
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/assertVectorsAlmostEqual.m
+END
+CommandWindowTestRunDisplay.m
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/CommandWindowTestRunDisplay.m
+END
+assertExceptionThrown.m
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/29/trunk/tools/utilities/SPOT-SLIM/tests/xunit/assertExceptionThrown.m
+END

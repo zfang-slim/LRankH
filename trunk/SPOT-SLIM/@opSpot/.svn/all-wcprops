@@ -1,0 +1,323 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot
+END
+opSpot.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/opSpot.m
+END
+rrandn.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/rrandn.m
+END
+eigs.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/eigs.m
+END
+normest.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/normest.m
+END
+minus.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/minus.m
+END
+mldivide.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/mldivide.m
+END
+blkdiag.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/blkdiag.m
+END
+mtimes.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/mtimes.m
+END
+qmr.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/qmr.m
+END
+xtratests.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/xtratests.m
+END
+full.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/full.m
+END
+mrdivide.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/mrdivide.m
+END
+bicg.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/bicg.m
+END
+diag.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/diag.m
+END
+divide.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/divide.m
+END
+display.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/display.m
+END
+end.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/end.m
+END
+vertcat.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/vertcat.m
+END
+mpower.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/mpower.m
+END
+kron.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/kron.m
+END
+horzcat.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/horzcat.m
+END
+ndims.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/ndims.m
+END
+pinv.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/pinv.m
+END
+transpose.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/transpose.m
+END
+isreal.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/isreal.m
+END
+uminus.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/uminus.m
+END
+length.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/length.m
+END
+ctranspose.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/ctranspose.m
+END
+matldivide.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/matldivide.m
+END
+real.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/real.m
+END
+subsasgn.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/subsasgn.m
+END
+conj.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/conj.m
+END
+isempty.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/isempty.m
+END
+inv.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/inv.m
+END
+minres.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/minres.m
+END
+disp.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/disp.m
+END
+isscalar.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/isscalar.m
+END
+utest.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/utest.m
+END
+lsqrdivide.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/lsqrdivide.m
+END
+drandn.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/drandn.m
+END
+uplus.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/uplus.m
+END
+pcg.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/pcg.m
+END
+subsref.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/subsref.m
+END
+double.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/double.m
+END
+size.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/size.m
+END
+cgs.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/cgs.m
+END
+imag.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/imag.m
+END
+gmres.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/gmres.m
+END
+char.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/char.m
+END
+bicgstab.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/bicgstab.m
+END
+lsqr.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/lsqr.m
+END
+symmlq.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/symmlq.m
+END
+plus.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/SINBAD/SINBAD.Projects.SoftwareForSponsors/!svn/ver/90/trunk/tools/utilities/SPOT-SLIM/@opSpot/plus.m
+END

@@ -1,0 +1,58 @@
+import os
+import os.path
+
+env = Environment(ENV = {'PATH' : os.environ['PATH']})
+
+LATEX_PROJECTS = ['report']
+
+DEFAULT_TARGET = 'pdf'
+
+EPS_DIRECTORY = 'figs_source'
+EPS_EXTENSION = '.eps'
+PDF_DIRECTORY = 'figs'
+PDF_EXTENSION = '.pdf'
+
+# find .eps files in EPS_DIRECTORY
+find_pattern = os.path.join(EPS_DIRECTORY, '*%s' % EPS_EXTENSION)
+EPS_FIGURES = Glob(find_pattern, strings=True)
+
+# Strip off the extensions.
+length_extension = len(EPS_EXTENSION)
+EPS_FIGURES = [x[x.index(os.sep) + 1:-length_extension] for x in EPS_FIGURES]
+
+
+# Builders
+env = Environment()
+
+# eps -> pdf builder
+pdfBuilder = Builder(action='epstopdf $SOURCE --outfile=$TARGET',
+                     suffix='.pdf', src_suffix='.eps')
+env.Append(BUILDERS={'Eps2pdf': pdfBuilder})
+
+
+# Latex DVI build
+for item in LATEX_PROJECTS:
+  env.Tool("dvi")
+  dviOutput = env.DVI(source=item + '.tex', target=item + '.dvi')
+  env.Alias('dvi', item + '.dvi')
+
+# LaTex PDF build
+for item in LATEX_PROJECTS:
+  env.Tool("pdf")
+  pdfOutput = env.PDF(source=item + '.tex', target=item + '.pdf')
+  env.Precious(item + '.pdf')
+  env.Alias('pdf', item + '.pdf')
+#env.Alias('dvi', LATEX_PROJECTS + '.dvi')
+#env.Alias('pdf', LATEX_PROJECTS + '.pdf')
+
+
+Default(DEFAULT_TARGET)
+
+
+# Convert all EPS figures to PDF
+for item in EPS_FIGURES:
+  epsFile = os.path.join(EPS_DIRECTORY, item + EPS_EXTENSION)
+  pdfFile = os.path.join(PDF_DIRECTORY, item + PDF_EXTENSION)
+  env.Eps2pdf(pdfFile, epsFile)
+  Depends(pdfOutput, pdfFile)
+

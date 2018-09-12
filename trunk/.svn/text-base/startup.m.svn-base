@@ -1,0 +1,17 @@
+
+
+% SPOT
+addpath('/users/installs/slic/mat_toolbox/spot-slim');
+
+% pSPOT
+addpath('/users/installs/slic/mat_toolbox/pSPOT');
+
+% xunit
+addpath('/users/installs/slic/mat_toolbox/spot-slim/tests/xunit/');
+
+% other stuff
+addpath([pwd '/misc']);
+addpath([pwd '/operators']);
+addpath([pwd '/solvers']);
+addpath([pwd '/utils']);
+addpath([pwd '/2DFreqModeling']);

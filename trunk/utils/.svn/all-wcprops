@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/96/trunk/utils
+END
+savefig.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/1/trunk/utils/savefig.m
+END
+latextable.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/21/trunk/utils/latextable.m
+END
+DotTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/35/trunk/utils/DotTest.m
+END
+JacobianTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/35/trunk/utils/JacobianTest.m
+END
+GradTest.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/35/trunk/utils/GradTest.m
+END
+runexp.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/SLIM/SLIM.Projects.2DFDFWI/!svn/ver/96/trunk/utils/runexp.m
+END
