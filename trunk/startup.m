@@ -1,13 +1,13 @@
 
 
 % SPOT
-addpath([pwd '/SPOT-SLIM']);
+addpath(genpath([pwd '/SPOT-SLIM']));
 
 % pSPOT
-addpath([pwd '/pSPOT']);
+addpath(genpath([pwd '/pSPOT']));
 
 % xunit
-addpath([pwd '/SPOT-SLIM/tests/xunit/']);
+addpath(genpath([pwd '/SPOT-SLIM/tests/xunit/']));
 
 % other stuff
 addpath([pwd '/misc']);
