@@ -10,8 +10,8 @@ model.xsrc = 0:50:500;
 model.zrec = 10;
 model.xrec = 0:50:500;
 model.saveLU = 0;
-model.saveWave = 0;
-model.appWave  = 0;
+model.saveWave = 1;
+model.appWave  = 1;
 model.uratio   = .1;
 
 v0 = 2000 * ones(model.n);
@@ -37,6 +37,6 @@ norm(vec(dD1(:,:,1)))
 
 % dm2 = lsqr(J, dD1, 1e-6,1000);
 tic
-dm2 = lsqrSOL(size(J,1), size(J,2), J, dD1, 10^-16, [], [], [], 1000, 1);
+dm2 = lsqrSOL(size(J,1), size(J,2), J, dD1, 10^-16, [], [], [], 100, 1);
 figure;imagesc(reshape(dm2,model.n))
 toc
