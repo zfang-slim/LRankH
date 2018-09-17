@@ -1,7 +1,7 @@
 function [D,J] = F(m,Q,model)
 % Frequency domain FD modeling operator
 %
-% use: 
+% use:
 %   [D,J] = F(m,Q,model)
 % input:
 %   m                 - vector with gridded squared slowness in [km^2/s^2]
@@ -20,7 +20,7 @@ function [D,J] = F(m,Q,model)
 %
 % output:
 %   D  - Data cube (nrec x nsrc x nfreq) as (distributed) vector. nsrc  = size(Q,2);
-%                                                                 nrec  = length(zrec)*length(xrec) 
+%                                                                 nrec  = length(zrec)*length(xrec)
 %                                                                 nfreq = length(freq)
 %   J  - Jacobian as pSPOT operator
 %%
@@ -32,25 +32,25 @@ function [D,J] = F(m,Q,model)
 %%
 % model.o = [0 0 0];
 % model.d = [10 10 1];
-% model.n = [101 101 1];        
+% model.n = [101 101 1];
 % model.nb = [10 10 0];
-% model.freq = [5 10 15 20]; 
+% model.freq = [5 10 15 20];
 % model.f0 = 0;
-% model.zsrc = 10; 
+% model.zsrc = 10;
 % model.xsrc = 0:10:1000;
-% model.zrec = 10; 
+% model.zrec = 10;
 % model.xrec = 0:10:1000;
 % m = .25*ones(prod(model.n),1);
 % Q = speye(length(model.xsrc));
 % D = F(m,Q,model);
-% 
+%
 %%
 
 % Author: Tristan van Leeuwen
 %         Seismic Laboratory for Imaging and Modeling
 %         Department of Earch & Ocean Sciences
 %         The University of British Columbia
-%         
+%
 % Date: February, 2012
 %
 % You may use this code only under the conditions and terms of the
@@ -61,6 +61,39 @@ function [D,J] = F(m,Q,model)
 if nargin < 4
     dogather = 0;
 end
+
+if nargout < 2
+    saveLU = 0;
+    saveWave = 0;
+else
+    if isfield(model, 'saveWave')
+        saveWave = model.saveWave;
+    else
+        saveWave = 0;
+    end
+
+    if saveWave == 0
+        saveLU = 1;
+        if isfield(model, 'saveLU')
+            saveLU = model.saveLU;
+        end
+    else
+        saveLU = 0;
+    end
+end
+
+if saveWave == 1
+    appWave = 0;
+    if isfield(model, 'appWave')
+        appWave = model.appWave;
+    end
+    uratio = 0.1;
+    if isfield(model, 'uratio')
+        uratio = model.uratio;
+    end
+end
+
+
 
 % comp. grid
 ot = model.o-model.nb.*model.d;
@@ -97,31 +130,81 @@ if (size(Q,3)==1)&&(isdistributed(Q))
     Q = gather(Q);
 end
 
+Prt = (sparsedouble(Pr))';
+
 spmd
     codistr  = codistributor1d(2,[],[nsrc*nrec,nfreq]);
     freqloc  = getLocalPart(freq);
     wloc     = getLocalPart(w);
     nfreqloc = length(freqloc);
     Dloc     = zeros(nrec*nsrc,nfreqloc);
+
+    if saveLU > 0
+        IHAll = {};
+    end
+
+    if saveWave > 0;
+        UAll = [];
+        VAll = [];
+    end
+
     if size(Q,3)==1
         for k = 1:nfreqloc
             Hk  = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
-            Uk  = Hk\(wloc(k)*(Ps'*Q)); 
-            Dloc(:,k) = vec(Pr*Uk); 
+            IHk = opHInv(Hk);
+            Uk  = IHk*(wloc(k)*(Ps'*Q));
+            Dloc(:,k) = vec(Pr*Uk);
+
+            if saveLU > 0
+                IHAll{k} = IHk;
+            end
+
+            if saveWave > 0
+                UAll{k} = Uk;
+                VAll{k} = IHk' * Prt;
+                if appWave == 1
+                    UAll{k} = opUapp(UAll{k}, nt, uratio);
+                    VAll{k} = opUapp(VAll{k}, nt, uratio);
+                end
+            end
         end
     else
         Qloc = getLocalPart(Q);
         for k = 1:nfreqloc
             Hk  = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
-            Uk  = Hk\(wloc(k)*(Ps'*Qloc(:,:,k))); 
-            Dloc(:,k) = vec(Pr*Uk); 
+            IHk = opHInv(Hk);
+            Uk  = IHk*(wloc(k)*(Ps'*Qloc(:,:,k)));
+            Dloc(:,k) = vec(Pr*Uk);
+
+            if saveLU > 0
+                IHAll{k} = IHk;
+            end
+
+            if saveWave > 0
+                UAll{k} = Uk;
+                VAll{k} = IHk' * Prt;
+                if appWave == 1
+                    UAll{k} = opUapp(UAll{k}, nt, uratio);
+                    VAll{k} = opUapp(VAll{k}, nt, uratio);
+                end
+            end
         end
     end
-    D = codistributed.build(Dloc,codistr,'noCommunication'); 
+    D = codistributed.build(Dloc,codistr,'noCommunication');
 end
 
 % vectorize output, gather if needed
 D = vec(D);
 
 % construct pSPOT operator
-J = oppDF(m,Q,model);
+model.saveWave = saveWave;
+model.saveLU   = saveLU;
+auxvar = [];
+if saveWave == 1
+    auxvar.UAll = UAll;
+    auxvar.VAll = VAll;
+end
+if saveLU == 1
+    auxvar.IHAll = IHAll;
+end
+J = oppDF(m,Q,model,auxvar);

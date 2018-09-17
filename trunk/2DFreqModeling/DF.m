@@ -1,8 +1,8 @@
-function output = DF(m,Q,input,flag,model)
+function output = DF(m,Q,input,flag,model,auxvar)
 % Frequency domain modeling in the Born approximation. This is the
-% Jacobian of F(m,Q,model). 
+% Jacobian of F(m,Q,model).
 %
-% use: 
+% use:
 %   output = DF(m,Q,input,flag,model,{gather})
 % input:
 %   m                 - vector with gridded squared slowness in [km^2/s^2]
@@ -32,14 +32,14 @@ function output = DF(m,Q,input,flag,model)
 %%
 % model.o = [0 0 0];
 % model.d = [10 10 1];
-% model.n = [101 101 1];        
+% model.n = [101 101 1];
 % model.nb = [10 10 0];
-% model.freq = [5 10 15 20]; 
+% model.freq = [5 10 15 20];
 % model.f0 = 0;
 % model.t0 = 0;
-% model.zsrc = 10; 
+% model.zsrc = 10;
 % model.xsrc = 0:10:1000;
-% model.zrec = 10; 
+% model.zrec = 10;
 % model.xrec = 0:10:1000;
 % m = .25*ones(prod(model.n),1);
 % Q = speye(length(model.xsrc));
@@ -55,17 +55,36 @@ function output = DF(m,Q,input,flag,model)
 %         Seismic Laboratory for Imaging and Modeling
 %         Department of Earch & Ocean Sciences
 %         The University of British Columbia
-%         
+%
 % Date: February, 2012
+%
+% Modified by
+% Author: Zhilong Fang
+%         IMAGING AND COMPUTING GROUP
+%         Department of Mathematics
+%         Earth Resources Laboratory
+%         Massachusetts Institute of Technology
+%
+% Date: Septermber, 2018
 %
 % You may use this code only under the conditions and terms of the
 % license contained in the file LICENSE provided with this source
 % code. If you do not agree to these terms you may not use this
 % software.
 
-if nargin < 6
+if nargin < 7
     dogather = 0;
 end
+
+if model.saveLU == 1
+    IHAll = auxvar.IHAll;
+end
+
+if model.saveWave == 1
+    UAll = auxvar.UAll;
+    VAll = auxvar.VAll;
+end
+
 
 % comp. grid
 ot = model.o-model.nb.*model.d;
@@ -112,26 +131,52 @@ if flag==1
         wloc      = getLocalPart(w);
         nfreqloc  = length(freqloc);
         outputloc = zeros(nsrc*nrec,nfreqloc);
-        
+
         if size(Q,3) == 1
             for k = 1: nfreqloc
-                [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
-                U0k       = Hk\(wloc(k)*(Ps'*Q));
-                Sk        = -(2*pi*freqloc(k))*(dnu*(dHk*(U0k.*repmat(Px*input,1,nsrc))));
-                U1k       = Hk\Sk;
-                outputloc(:,k) = vec(Pr*U1k);
+                if model.saveWave == 1
+                    [Hk, dHk]      = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k            = UAll{k};
+                    Sk             = -(2*pi*freqloc(k))*(dnu*(dHk*(U0k.*repmat(Px*input,1,nsrc))));
+                    outputloc(:,k) = vec((VAll{k})' * Sk);
+                elseif model.saveLU == 1
+                    [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k       = IHAll{k} * (wloc(k)*(Ps'*Q));
+                    Sk        = -(2*pi*freqloc(k))*(dnu*(dHk*(U0k.*repmat(Px*input,1,nsrc))));
+                    U1k       = IHAll{k} * Sk;
+                    outputloc(:,k) = vec(Pr*U1k);
+                else
+                    [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k       = Hk\(wloc(k)*(Ps'*Q));
+                    Sk        = -(2*pi*freqloc(k))*(dnu*(dHk*(U0k.*repmat(Px*input,1,nsrc))));
+                    U1k       = Hk\Sk;
+                    outputloc(:,k) = vec(Pr*U1k);
+                end
             end
         else
             Qloc = getLocalPart(Q);
             for k = 1: nfreqloc
-                [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
-                U0k       = Hk\(wloc(k)*(Ps'*Qloc(:,:,k)));
-                Sk        = -(2*pi*freqloc(k))*(dnu*(dHk*(U0k.*repmat(Px*input,1,nsrc))));
-                U1k       = Hk\Sk;
-                outputloc(:,k) = vec(Pr*U1k);
+                if model.saveWave == 1
+                    [Hk, dHk]      = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k            = UAll{k};
+                    Sk             = -(2*pi*freqloc(k))*(dnu*(dHk*(U0k.*repmat(Px*input,1,nsrc))));
+                    outputloc(:,k) = vec((VAll{k})' * Sk);
+                elseif model.saveLU == 1
+                    [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k       = IHAll{k} * (wloc(k)*(Ps'*Qloc(:,:,k)));
+                    Sk        = -(2*pi*freqloc(k))*(dnu*(dHk*(U0k.*repmat(Px*input,1,nsrc))));
+                    U1k       = IHAll{k} * Sk;
+                    outputloc(:,k) = vec(Pr*U1k);
+                else
+                    [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k       = Hk\(wloc(k)*(Ps'*Qloc(:,:,k)));
+                    Sk        = -(2*pi*freqloc(k))*(dnu*(dHk*(U0k.*repmat(Px*input,1,nsrc))));
+                    U1k       = Hk\Sk;
+                    outputloc(:,k) = vec(Pr*U1k);
+                end
             end
         end
-        output = codistributed.build(outputloc,codistr,'noCommunication'); 
+        output = codistributed.build(outputloc,codistr,'noCommunication');
     end
     output = vec(output);
 
@@ -142,26 +187,52 @@ else
         nfreqloc  = length(freqloc);
         outputloc = zeros(prod(model.n),1);
         inputloc  = getLocalPart(input);
-        
+
         if size(Q,3)==1
             for k = 1:nfreqloc
                 inputloc  = reshape(inputloc,[nsrc*nrec,nfreqloc]);
-                [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
-                U0k       = Hk\(wloc(k)*(Ps'*Q));
-                Sk        = -Pr'*reshape(inputloc(:,k),[nrec nsrc]);
-                V0k       = Hk'\Sk;
-                r         = real(sum(conj(U0k).*(dHk'*((2*pi*freqloc(k))'*dnu'*V0k)),2)); 
+                if model.saveWave == 1
+                    [Hk, dHk]      = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k            = UAll{k};
+                    V0k            = -VAll{k} *reshape(inputloc(:,k),[nrec nsrc]);
+                    r              = real(sum(conj(U0k.* conj(dHk'*((2*pi*freqloc(k))'*dnu'*V0k))),2));
+                elseif model.saveLU == 1
+                    [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k       = IHAll{k} * (wloc(k)*(Ps'*Q));
+                    Sk        = -Pr'*reshape(inputloc(:,k),[nrec nsrc]);
+                    V0k       = (IHAll{k})' * Sk;
+                    r         = real(sum(conj(U0k.*conj(dHk'*((2*pi*freqloc(k))'*dnu'*V0k))),2));
+                else
+                    [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k       = Hk\(wloc(k)*(Ps'*Q));
+                    Sk        = -Pr'*reshape(inputloc(:,k),[nrec nsrc]);
+                    V0k       = Hk'\Sk;
+                    r         = real(sum(conj(U0k.*conj(dHk'*((2*pi*freqloc(k))'*dnu'*V0k))),2));
+                end
                 outputloc = outputloc + Px'*r;
             end
         else
             Qloc = getLocalPart(Q);
             for k = 1:nfreqloc
                 inputloc  = reshape(inputloc,[nsrc*nrec,nfreqloc]);
-                [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
-                U0k       = Hk\(wloc(k)*(Ps'*Qloc(:,:,k)));
-                Sk        = -Pr'*reshape(inputloc(:,k),[nrec nsrc]);
-                V0k       = Hk'\Sk;
-                r         = real(sum(conj(U0k).*(dHk'*((2*pi*freqloc(k))'*dnu'*V0k)),2)); 
+                if model.saveWave == 1
+                    [Hk, dHk]      = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k            = UAll{k};
+                    V0k            = -VAll{k} *reshape(inputloc(:,k),[nrec nsrc]);
+                    r              = real(sum(conj(U0k.*conj(dHk'*((2*pi*freqloc(k))'*dnu'*V0k))),2));
+                elseif model.saveLU == 1
+                    [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k       = IHAll{k} * (wloc(k)*(Ps'*Qloc(:,:,k)));
+                    Sk        = -Pr'*reshape(inputloc(:,k),[nrec nsrc]);
+                    V0k       = (IHAll{k})' * Sk;
+                    r         = real(sum(conj(U0k.*conj(dHk'*((2*pi*freqloc(k))'*dnu'*V0k))),2));
+                else
+                    [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
+                    U0k       = Hk\(wloc(k)*(Ps'*Qloc(:,:,k)));
+                    Sk        = -Pr'*reshape(inputloc(:,k),[nrec nsrc]);
+                    V0k       = Hk'\Sk;
+                    r         = real(sum(conj(U0k.*conj(dHk'*((2*pi*freqloc(k))'*dnu'*V0k))),2));
+                end
                 outputloc = outputloc + Px'*r;
             end
         end
@@ -169,4 +240,3 @@ else
     end
     output = output{1};
 end
-
