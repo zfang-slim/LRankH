@@ -5,6 +5,7 @@ addpath(modeldir);
 addpath('/math/home/fangzl/Project/zfangtool');
 Modelname = 'overthrust_vp.rsf';
 curdir = pwd;
+cd('../');
 startup;
 
 mfile = mfilename;
