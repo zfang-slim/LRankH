@@ -35,7 +35,7 @@ model.uratio   = .1;
 
 nsrc = length(model.xsrc);
 nrec = length(model.xrec);
-nfreq = length(model.xfreq);
+nfreq = length(model.freq);
 od    = [model.xrec(1), model.xsrc(1), model.freq(1)];
 dd    = [model.xrec(2)-model.xrec(1), model.xsrc(2)-model.xsrc(1), model.freq(2)-model.freq(1)];
 nd    = [nrec,nsrc,nfreq];
