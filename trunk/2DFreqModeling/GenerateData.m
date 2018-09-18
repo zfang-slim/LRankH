@@ -7,6 +7,9 @@ Modelname = 'overthrust_vp.rsf';
 curdir = pwd;
 startup;
 
+mfile = mfilename;
+copyfile(mfile,datadir);
+
 cd(modeldir);
 [A o d n] = rsfread(Modelname);
 A         = reshape(A,n);
