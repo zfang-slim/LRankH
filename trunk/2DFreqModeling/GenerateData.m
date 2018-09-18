@@ -5,11 +5,12 @@ addpath(modeldir);
 addpath('/math/home/fangzl/Project/zfangtool');
 Modelname = 'overthrust_vp.rsf';
 curdir = pwd;
+mfile = mfilename;
+copyfile([mfile '.m'], datadir);
 cd('../');
 startup;
 
-mfile = mfilename;
-copyfile(mfile,datadir);
+
 
 cd(modeldir);
 [A o d n] = rsfread(Modelname);
