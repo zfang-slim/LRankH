@@ -41,7 +41,7 @@ dd    = [model.xrec(2)-model.xrec(1), model.xsrc(2)-model.xsrc(1), model.freq(2)
 nd    = [nrec,nsrc,nfreq];
 
 for i = 1:floor(n(2)/2)
-    print(i)
+    fprintf('%03.0f\n',i)
     v1 = A(:,i,:);
     m1 = 1e6./v1(:).^2;
     Q  = eye(length(model.xsrc));
