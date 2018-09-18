@@ -47,7 +47,7 @@ for i = 1:n(2)
     D1 = F(m1,Q,model);
     D1     = gather(D1);
     D1     = reshape(D1, nrec, nsrc, nfreq);
-    filename = fprintf('Data%03.0f.mat',i);
-    WriteAllData(filename, A, nd, dd, od);
+    filename = sprintf('Data%03.0f.mat',i);
+    WriteAllData(filename, D1, nd, dd, od);
 end
 cd(curdir)
