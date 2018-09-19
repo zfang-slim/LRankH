@@ -7,7 +7,7 @@ function x = GaussNewton(fh, x, opt)
     end
 
     if isfield(opt, 'NLitermax')
-        NLitermax = opt.itermax;
+        NLitermax = opt.NLitermax;
     else
         NLitermax = 10;
     end
