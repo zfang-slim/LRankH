@@ -14,7 +14,7 @@ end
 
 mfile = mfilename;
 copyfile([mfile '.m'], datadir);
-cd('../');
+cd('../../');
 startup;
 
 Ifreq = {[1:4],[4:7],[7:10],[10:13],[13:16]};
@@ -51,6 +51,10 @@ nd    = [nrec,nsrc,nfreq];
 v0 = A(:,:);
 m0 = 1e6./v0(:).^2;
 Q  = eye(length(model.xsrc));
+
+opt.Write = 1;
+opt.NLitermax = 2;
+opt.Litermax  = 10;
 
 for k = 1:length(Ifreq)
     modelk      = model;
