@@ -34,6 +34,7 @@ D = squeeze(D);
 model.o = o;
 model.d = d;
 model.n = n;
+model.nb = [50 50];
 model.f0 = 10;
 model.t0 = 0.01;
 model.saveLU = 0;
