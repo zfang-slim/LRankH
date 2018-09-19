@@ -36,9 +36,9 @@ model.uratio   = .1;
 nsrc = length(model.xsrc);
 nrec = length(model.xrec);
 nfreq = length(model.freq);
-od    = [model.xrec(1), model.xsrc(1), model.freq(1)];
-dd    = [model.xrec(2)-model.xrec(1), model.xsrc(2)-model.xsrc(1), model.freq(2)-model.freq(1)];
-nd    = [nrec,nsrc,nfreq];
+od    = [model.zrec(1), model.xrec(1), model.zsrc(1), model.xsrc(1), model.freq(1)];
+dd    = [1, model.xrec(2)-model.xrec(1), 1, model.xsrc(2)-model.xsrc(1), model.freq(2)-model.freq(1)];
+nd    = [1,nrec,1,nsrc,nfreq];
 
 
 v1 = A(:,:);
@@ -46,7 +46,7 @@ m1 = 1e6./v1(:).^2;
 Q  = eye(length(model.xsrc));
 D1 = F(m1,Q,model);
 D1     = gather(D1);
-D1     = reshape(D1, nrec, nsrc, nfreq);
+D1     = reshape(D1, [1, nrec, 1, nsrc, nfreq]);
 filename = sprintf('Data2-17Hz.mat');
 WriteAllData(filename, D1, nd, dd, od);
 
