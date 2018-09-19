@@ -1,7 +1,7 @@
 modeldir = '/math/home/fangzl/Model/Marmousi-2';
 datadir  = '/math/home/fangzl/Data/Marmousi';
 resdir   = '/math/home/fangzl/Result/Marmousi/Exp1';
-addpath('../');
+addpath('../../');
 addpath(modeldir);
 addpath('/math/home/fangzl/Project/zfangtool');
 Modelname = 'marmosi_vp_ini_smooth.mat';
@@ -49,7 +49,7 @@ dd    = [model.xrec(2)-model.xrec(1), model.xsrc(2)-model.xsrc(1), model.freq(2)
 nd    = [nrec,nsrc,nfreq];
 
 v0 = A(:,:);
-m0 = 1e6./v1(:).^2;
+m0 = 1e6./v0(:).^2;
 Q  = eye(length(model.xsrc));
 
 for k = 1:length(Ifreq)
@@ -63,6 +63,9 @@ for k = 1:length(Ifreq)
     vk          = reshape(1./sqrt(m0),model.n);
     filename    = ['v_' num2str(k) '.mat'];
     WriteAllData(filename, vk, model.n, model.d, model.o);
+    Expsub      = ['xm' num2str(k)];
+    mkdir(Expsub);
+    movefile('*.mat', Expsub);
 end
 
 filename    = ['vfinal.mat'];

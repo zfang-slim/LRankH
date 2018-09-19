@@ -24,4 +24,5 @@ function x = GaussNewton(fh, x, opt)
         dx       = lsqrSOL(size(J,1), size(J,2), J, dD, 10^-10, [], [], [], Litermax, 1);
         x        = x - dx;
         fprintf('%03.0f,    %3.3e\n', i, f);
+        save(['x_' num2str(i) '.mat'], 'x');
     end
