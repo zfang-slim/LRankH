@@ -218,8 +218,12 @@ else
                 if model.saveWave == 1
                     [Hk, dHk]      = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
                     U0k            = UAll{k};
+                    tic
                     V0k            = -VAll{k} *reshape(inputloc(:,k),[nrec nsrc]);
+                    toc
+                    tic
                     r              = real(sum(conj(U0k.*conj(dHk'*((2*pi*freqloc(k))'*dnu'*V0k))),2));
+                    toc
                 elseif model.saveLU == 1
                     [Hk, dHk] = Helm2D(2*pi*freqloc(k)*nu,ot,dt,nt,model.nb);
                     U0k       = IHAll{k} * (wloc(k)*(Ps'*Qloc(:,:,k)));

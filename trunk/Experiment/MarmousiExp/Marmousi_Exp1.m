@@ -66,9 +66,9 @@ for k = 1:length(Ifreq)
     fh          = @(x) misfit_GN(x, Dk, Q, modelk);
     [f dD J]    = fh(m0);
     % tic
-    % dD1         = J * m0;
+    pm         = J' * dD;
     % toc
-    % keyboard
+    keyboard
     m0          = GaussNewton(fh, m0, opt);
     vk          = reshape(1./sqrt(m0),model.n);
     filename    = ['v_' num2str(k) '.mat'];
