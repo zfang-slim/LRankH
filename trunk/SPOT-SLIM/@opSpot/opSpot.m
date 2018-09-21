@@ -90,7 +90,7 @@ classdef opSpot
                 end
                 return
             end
-            
+
             if op.sweepflag
                 y = op.multiply(x,mode);
             else

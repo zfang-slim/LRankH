@@ -20,7 +20,7 @@ function x = GaussNewton(fh, x, opt)
 
 
     for i = 1:NLitermax
-        [f dD J] = fh(x);
+        [f dD J] = fh(x);s
         dx       = lsqrSOL(size(J,1), size(J,2), J, dD, 10^-10, [], [], [], Litermax, 1);
         x        = x - dx;
         fprintf('%03.0f,    %3.3e\n', i, f);

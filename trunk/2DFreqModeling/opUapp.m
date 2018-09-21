@@ -54,7 +54,7 @@ classdef opUapp < opSpot
            op.cflag     = 1;
            op.linear    = 1;
            op.children  = [];
-           op.sweepflag = true;
+           op.sweepflag = 1;
            op.m         = m;
            op.n         = n;
            op.SS        = [];
@@ -105,10 +105,16 @@ classdef opUapp < opSpot
        
        function out = multiply(op,in,mode)
            if mode==1
-               out = zeros(op.m, size(in,2));
+               nr = size(in,2);
+%                out = zeros(op.m, nr);
+               out(op.m, nr) = 0;
                for i = 1:op.n
                    u   = vec(op.UU(:,:,i) * op.SS(:,:,i) * op.VV(:,:,i));
-                   out = out + u * in(i,:);
+                   aa  = in(i,:);
+                   for j = 1:nr
+%                         out = out + u * in(i,:);
+                        out(:,j) = out(:,j) + aa(j)*u;
+                   end
                end
            else
                out = zeros(op.n, size(in,2));

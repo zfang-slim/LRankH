@@ -1,3 +1,4 @@
+pool = parpool(4);
 modeldir = '/math/home/fangzl/Model/Marmousi-2';
 datadir  = '/math/home/fangzl/Data/Marmousi';
 resdir   = '/math/home/fangzl/Result/Marmousi/Exp1';
@@ -40,7 +41,7 @@ model.t0 = 0.01;
 model.saveLU = 0;
 model.saveWave = 1;
 model.appWave  = 1;
-model.uratio   = .01;
+model.uratio   = .1;
 
 nsrc = length(model.xsrc);
 nrec = length(model.xrec);
@@ -54,7 +55,7 @@ m0 = 1e6./v0(:).^2;
 Q  = eye(length(model.xsrc));
 
 opt.Write = 1;
-opt.NLitermax = 2;
+opt.NLitermax = 10;
 opt.Litermax  = 10;
 
 for k = 1:length(Ifreq)
@@ -66,9 +67,8 @@ for k = 1:length(Ifreq)
     fh          = @(x) misfit_GN(x, Dk, Q, modelk);
     [f dD J]    = fh(m0);
     % tic
-    pm         = J' * dD;
+    % pm         = J' * dD;
     % toc
-    keyboard
     m0          = GaussNewton(fh, m0, opt);
     vk          = reshape(1./sqrt(m0),model.n);
     filename    = ['v_' num2str(k) '.mat'];
@@ -82,3 +82,4 @@ filename    = ['vfinal.mat'];
 WriteAllData(filename, vk, model.n, model.d, model.o);
 
 cd(curdir)
+delete(gcp)
