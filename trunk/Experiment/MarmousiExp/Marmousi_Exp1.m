@@ -1,3 +1,4 @@
+
 pool = parpool(4);
 modeldir = '/math/home/fangzl/Model/Marmousi-2';
 datadir  = '/math/home/fangzl/Data/Marmousi';

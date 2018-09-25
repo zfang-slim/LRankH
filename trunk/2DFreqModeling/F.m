@@ -133,6 +133,9 @@ end
 Prt = (sparsedouble(Pr))';
 
 spmd
+    if isfield(model,'numProcess')
+	LASTN = maxNumCompThreads(model.numProcess);
+    end 
     codistr  = codistributor1d(2,[],[nsrc*nrec,nfreq]);
     freqloc  = getLocalPart(freq);
     wloc     = getLocalPart(w);

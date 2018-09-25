@@ -1,5 +1,6 @@
+pool = parpool(8);
 modeldir = '/math/home/fangzl/Model/overthrust3d';
-datadir = '/scratch/Zhilong/Data/overthrust3d';
+datadir = '/wavedata/Zhilong/Data/overthrust3d';
 addpath('../');
 addpath(modeldir);
 addpath('/math/home/fangzl/Project/zfangtool');
@@ -40,7 +41,7 @@ od    = [model.xrec(1), model.xsrc(1), model.freq(1)];
 dd    = [model.xrec(2)-model.xrec(1), model.xsrc(2)-model.xsrc(1), model.freq(2)-model.freq(1)];
 nd    = [nrec,nsrc,nfreq];
 
-for i = 172:floor(n(2)/2)
+for i = 253:floor(n(2)/2)
     fprintf('%03.0f\n',i)
     v1 = A(:,i,:);
     m1 = 1e6./v1(:).^2;
